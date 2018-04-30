@@ -1,0 +1,41 @@
+{
+  "current_build": "2",
+  "file": "VT_SML_HCM_V2.bin",
+  "version": "VT_SML_HCM_V2",
+  "size": "0.013 MB",
+  "size_in_bytes": "12671",
+  "cert_hash": "TZ8Aj9HzkTvKUl5qaraL1k+xwqfQ8eo0o2DlzWrXmUs=",
+  "fw_key": "5f/f6nafXAwZ54xm3QP6JKHuoxdheI96hOf1exCjnmQ=",
+  "checksum": "8c6d6e239f2492c7e38b2979c9d7263d",
+  "urgency": 2,
+  "title": {
+    "en_raw": "Software update",
+    "vi_raw": "Cập nhật phần mềm",
+    "en": "U29mdHdhcmUgdXBkYXRl",
+    "vi": "Q+G6rXAgbmjhuq10IHBo4bqnbiBt4buBbQ=="
+  },
+  "description": {
+    "en_raw": "This update will upgrade your device to improve stability, increase security, and fix bugs. Downloading updates over a mobile network or while roaming may cause additional charges.<br><br>Version: <strong>VPH-411_1027</strong>",
+    "vi_raw": "Bản cập nhật này sẽ nâng cấp thiết bị của bạn để tăng sự ổn định, bảo mật và sửa lỗi. Tải các bản cập nhật bằng mạng di động hoặc lúc đang chuyển vùng có thể làm phát sinh thêm phí.<br><br>Phiên bản: <strong>VPH-411_1027</strong>",
+    "en": "VGhpcyB1cGRhdGUgd2lsbCB1cGdyYWRlIHlvdXIgZGV2aWNlIHRvIGltcHJvdmUgc3RhYmlsaXR5LCBpbmNyZWFzZSBzZWN1cml0eSwgYW5kIGZpeCBidWdzLiBEb3dubG9hZGluZyB1cGRhdGVzIG92ZXIgYSBtb2JpbGUgbmV0d29yayBvciB3aGlsZSByb2FtaW5nIG1heSBjYXVzZSBhZGRpdGlvbmFsIGNoYXJnZXMuPGJyPjxicj5WZXJzaW9uOiA8c3Ryb25nPlZQSC00MTFfMTAyNzwvc3Ryb25nPg==",
+    "vi": "QuG6o24gY+G6rXAgbmjhuq10IG7DoHkgc+G6vSBuw6JuZyBj4bqlcCB0aGnhur90IGLhu4sgY+G7p2EgYuG6oW4gxJHhu4MgdMSDbmcgc+G7sSDhu5VuIMSR4buLbmgsIGLhuqNvIG3huq10IHbDoCBz4butYSBs4buXaS4gVOG6o2kgY8OhYyBi4bqjbiBj4bqtcCBuaOG6rXQgYuG6sW5nIG3huqFuZyBkaSDEkeG7mW5nIGhv4bq3YyBsw7pjIMSRYW5nIGNodXnhu4NuIHbDuW5nIGPDsyB0aOG7gyBsw6BtIHBow6F0IHNpbmggdGjDqm0gcGjDrS48YnI+PGJyPlBoacOqbiBi4bqjbjogPHN0cm9uZz5WUEgtNDExXzEwMjc8L3N0cm9uZz4="
+  },
+  "warnings": {
+    "en_raw": "This update will upgrade your device to improve stability, increase security, and fix bugs. Downloading updates over a mobile network or while roaming may cause additional charges.<br><br>Version: <strong>VPH-411_1027</strong>",
+    "vi_raw": "Bản cập nhật này sẽ nâng cấp thiết bị của bạn để tăng sự ổn định, bảo mật và sửa lỗi. Tải các bản cập nhật bằng mạng di động hoặc lúc đang chuyển vùng có thể làm phát sinh thêm phí.<br><br>Phiên bản: <strong>VPH-411_1027</strong>",
+    "en": "VGhpcyB1cGRhdGUgd2lsbCB1cGdyYWRlIHlvdXIgZGV2aWNlIHRvIGltcHJvdmUgc3RhYmlsaXR5LCBpbmNyZWFzZSBzZWN1cml0eSwgYW5kIGZpeCBidWdzLiBEb3dubG9hZGluZyB1cGRhdGVzIG92ZXIgYSBtb2JpbGUgbmV0d29yayBvciB3aGlsZSByb2FtaW5nIG1heSBjYXVzZSBhZGRpdGlvbmFsIGNoYXJnZXMuPGJyPjxicj5WZXJzaW9uOiA8c3Ryb25nPlZQSC00MTFfMTAyNzwvc3Ryb25nPg==",
+    "vi": "QuG6o24gY+G6rXAgbmjhuq10IG7DoHkgc+G6vSBuw6JuZyBj4bqlcCB0aGnhur90IGLhu4sgY+G7p2EgYuG6oW4gxJHhu4MgdMSDbmcgc+G7sSDhu5VuIMSR4buLbmgsIGLhuqNvIG3huq10IHbDoCBz4butYSBs4buXaS4gVOG6o2kgY8OhYyBi4bqjbiBj4bqtcCBuaOG6rXQgYuG6sW5nIG3huqFuZyBkaSDEkeG7mW5nIGhv4bq3YyBsw7pjIMSRYW5nIGNodXnhu4NuIHbDuW5nIGPDsyB0aOG7gyBsw6BtIHBow6F0IHNpbmggdGjDqm0gcGjDrS48YnI+PGJyPlBoacOqbiBi4bqjbjogPHN0cm9uZz5WUEgtNDExXzEwMjc8L3N0cm9uZz4="
+  },
+  "install_success_message": {
+    "en_raw": "Software update successful.",
+    "vi_raw": "Cập nhật phần mềm thành công.",
+    "en": "U29mdHdhcmUgdXBkYXRlIHN1Y2Nlc3NmdWwu",
+    "vi": "Q+G6rXAgbmjhuq10IHBo4bqnbiBt4buBbSB0aMOgbmggY8O0bmcu"
+  },
+  "install_failure_message": {
+    "en_raw": "Software update failed. Please try again later.",
+    "vi_raw": "Cập nhật phần mềm thất bại. Vui lòng thử lại sau.",
+    "en": "U29mdHdhcmUgdXBkYXRlIGZhaWxlZC4gUGxlYXNlIHRyeSBhZ2FpbiBsYXRlci4=",
+    "vi": "Q+G6rXAgbmjhuq10IHBo4bqnbiBt4buBbSB0aOG6pXQgYuG6oWkuIFZ1aSBsw7JuZyB0aOG7rSBs4bqhaSBzYXUu"
+  }
+}

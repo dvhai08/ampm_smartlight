@@ -1,0 +1,17 @@
+#ifndef SRC_PROTOCOL_MQTT_AWS_IOT_EMBEDDED_CLIENT_WRAPPER_PLATFORM_LINUX_COMMON_TIMER_PLATFORM_H_
+#define SRC_PROTOCOL_MQTT_AWS_IOT_EMBEDDED_CLIENT_WRAPPER_PLATFORM_LINUX_COMMON_TIMER_PLATFORM_H_
+
+#include <stdint.h>
+#include "aws_iot_config.h"
+
+typedef struct TimerAWS
+{
+	uint32_t timeout_ms;
+	uint32_t (*read_ms)(void);
+	uint32_t time_now_ms;
+}TimerAWS;
+
+#define Timer TimerAWS
+
+#endif /* SRC_PROTOCOL_MQTT_AWS_IOT_EMBEDDED_CLIENT_WRAPPER_PLATFORM_LINUX_COMMON_TIMER_PLATFORM_H_ */
+

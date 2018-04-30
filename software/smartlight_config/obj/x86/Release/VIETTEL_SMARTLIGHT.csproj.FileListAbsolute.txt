@@ -1,0 +1,11 @@
+E:\working\VTSMART\GIT\sml-thing-hcm\software\smartlight_config\bin\Release\PJ2000M95_V303_UP\log4net.dll
+E:\working\VTSMART\GIT\sml-thing-hcm\software\smartlight_config\obj\x86\Release\PJ1000TrackerConfiguration.MainForm.resources
+E:\working\VTSMART\GIT\sml-thing-hcm\software\smartlight_config\obj\x86\Release\PJ1000TrackerConfiguration.RegisterForm.resources
+E:\working\VTSMART\GIT\sml-thing-hcm\software\smartlight_config\obj\x86\Release\VIETTEL_SMARTLIGHT.csproj.GenerateResource.Cache
+E:\working\VTSMART\GIT\sml-thing-hcm\software\smartlight_config\obj\x86\Release\VIETTEL_SMARTLIGHT.csproj.CoreCompileInputs.cache
+E:\working\VTSMART\GIT\sml-thing-hcm\software\smartlight_config\bin\Release\PJ2000M95_V303_UP\VIETTEL_SMARTLIGHT.exe
+E:\working\VTSMART\GIT\sml-thing-hcm\software\smartlight_config\bin\Release\PJ2000M95_V303_UP\VIETTEL_SMARTLIGHT.pdb
+E:\working\VTSMART\GIT\sml-thing-hcm\software\smartlight_config\obj\x86\Release\VIETTEL_SMARTLIGHT.csprojResolveAssemblyReference.cache
+E:\working\VTSMART\GIT\sml-thing-hcm\software\smartlight_config\obj\x86\Release\VIETTEL_SMARTLIGHT.Properties.Resources.resources
+E:\working\VTSMART\GIT\sml-thing-hcm\software\smartlight_config\obj\x86\Release\VIETTEL_SMARTLIGHT.exe
+E:\working\VTSMART\GIT\sml-thing-hcm\software\smartlight_config\obj\x86\Release\VIETTEL_SMARTLIGHT.pdb

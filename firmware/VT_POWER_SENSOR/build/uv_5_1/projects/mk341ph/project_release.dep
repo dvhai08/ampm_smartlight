@@ -1,0 +1,974 @@
+Dependencies for Project 'project', Target 'release': (DO NOT MODIFY !)
+F (..\..\..\..\src\projects\mk341ph\system_config.c)(0x593FAF8B)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 -Otime --apcs=interwork -I..\..\..\..\src\common -I..\..\..\..\src\common\headers -I..\..\..\..\src\drivers -I..\..\..\..\src\freemaster -I..\..\..\..\src\toolchain\uv -I..\..\..\..\src\meterlib -I..\..\..\..\src\fraclib -I..\..\..\..\src\projects\mk341ph -I..\..\..\..\src\projects\mk341ph -I..\..\..\..\src\ampm_lib -I..\..\..\..\src\ampm_lib\uip -I..\..\..\..\src\ampm_lib\ampm_gsm -I..\..\..\..\src\ampm_lib\common -I..\..\..\..\src\ampm_lib\PPP -I..\..\..\..\src\ampm_lib\uip-ppp-lib -I..\..\..\..\src\ampm_lib\flash_mem -I..\..\..\..\src\polarssl-1.3.8\include -I..\..\..\..\src\polarssl-1.3.8 -I..\..\..\..\src\dlt645 --diag_suppress=1,951 --c99 --bss_threshold=0-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Freescale\Kinetis-DNDEBUG -DMESH_NET_SUPPORT -DHAS_HOST_UART -DGSM_SUPPORT-o .\release\system_config.o --omf_browse .\release\system_config.crf --depend .\release\system_config.d)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7D364)
+I (C:\Keil\ARM\ARMCC\include\math.h)(0x51C7D364)
+I (..\..\..\..\src\drivers\drivers.h)(0x57D35D54)
+I (..\..\..\..\src\common\common.h)(0x57D35D54)
+I (..\..\..\..\src\projects\mk341ph\appconfig.h)(0x57F9D14A)
+I (..\..\..\..\src\common\headers/MKM34Z5.h)(0x57D35D54)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7D364)
+I (..\..\..\..\src\common\iohw.h)(0x57D35D54)
+I (..\..\..\..\src\common\startup.h)(0x57D35D54)
+I (..\..\..\..\src\common\arm_cm0.h)(0x57D35D54)
+I (..\..\..\..\src\common\arch_delay.h)(0x57D35D54)
+I (..\..\..\..\src\common\delay.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\sim/sim.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\fll/fll.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\ftfa/ftfa.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\pll/pll.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\vref/vref.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\gpio/gpio.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\adc/adc.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\afe/afe.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\pit/pit.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\uart/uart.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\swisr/swisr.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\crc/crc.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\lptmr/lptmr.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\llwu/llwu.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\smc/smc.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\pmc/pmc.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\rnga/rnga.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\cmp/cmp.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\i2c/i2c.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\xbar/xbar.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\tmr/tmr.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\irtc/irtc.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\wdog/wdog.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\spi/spi.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\osc/osc.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\osc32k/osc32k.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\dma/dma.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\mpu/mpu.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\aips/aips.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\rcm/rcm.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\mcm/mcm.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\syst/syst.h)(0x57D35D54)
+I (..\..\..\..\src\freemaster\freemaster.h)(0x57D35D54)
+I (..\..\..\..\src\freemaster\freemaster_defcfg.h)(0x57D35D54)
+I (..\..\..\..\src\projects\mk341ph\freemaster_cfg.h)(0x57D35D56)
+I (..\..\..\..\src\freemaster\freemaster_tsa.h)(0x57D35D54)
+I (..\..\..\..\src\fraclib\fraclib.h)(0x57D35D54)
+I (..\..\..\..\src\fraclib\FRACLIB_Types.h)(0x57D35D54)
+I (..\..\..\..\src\fraclib\FRACLIB_Mul32.h)(0x57D35D54)
+I (..\..\..\..\src\fraclib\FRACLIB_Inlines.h)(0x57D35D54)
+I (..\..\..\..\src\meterlib\meterlib.h)(0x57F9F8F6)
+I (..\..\..\..\src\projects\mk341ph\system_config.h)(0x593FAF46)
+I (..\..\..\..\src\projects\mk341ph\smarthome_meter.h)(0x57FB1A46)
+F (..\..\..\..\src\projects\mk341ph\main.c)(0x593FC7C8)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 -Otime --apcs=interwork -I..\..\..\..\src\common -I..\..\..\..\src\common\headers -I..\..\..\..\src\drivers -I..\..\..\..\src\freemaster -I..\..\..\..\src\toolchain\uv -I..\..\..\..\src\meterlib -I..\..\..\..\src\fraclib -I..\..\..\..\src\projects\mk341ph -I..\..\..\..\src\projects\mk341ph -I..\..\..\..\src\ampm_lib -I..\..\..\..\src\ampm_lib\uip -I..\..\..\..\src\ampm_lib\ampm_gsm -I..\..\..\..\src\ampm_lib\common -I..\..\..\..\src\ampm_lib\PPP -I..\..\..\..\src\ampm_lib\uip-ppp-lib -I..\..\..\..\src\ampm_lib\flash_mem -I..\..\..\..\src\polarssl-1.3.8\include -I..\..\..\..\src\polarssl-1.3.8 -I..\..\..\..\src\dlt645 --diag_suppress=1,951 --c99 --bss_threshold=0-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Freescale\Kinetis-DNDEBUG -DMESH_NET_SUPPORT -DHAS_HOST_UART -DGSM_SUPPORT-o .\release\main.o --omf_browse .\release\main.crf --depend .\release\main.d)
+I (..\..\..\..\src\projects\mk341ph\main.h)(0x57FB0ADE)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7D364)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7D364)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7D364)
+I (C:\Keil\ARM\ARMCC\include\math.h)(0x51C7D364)
+I (..\..\..\..\src\projects\mk341ph\appconfig.h)(0x57F9D14A)
+I (..\..\..\..\src\drivers\drivers.h)(0x57D35D54)
+I (..\..\..\..\src\common\common.h)(0x57D35D54)
+I (..\..\..\..\src\common\headers/MKM34Z5.h)(0x57D35D54)
+I (..\..\..\..\src\common\iohw.h)(0x57D35D54)
+I (..\..\..\..\src\common\startup.h)(0x57D35D54)
+I (..\..\..\..\src\common\arm_cm0.h)(0x57D35D54)
+I (..\..\..\..\src\common\arch_delay.h)(0x57D35D54)
+I (..\..\..\..\src\common\delay.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\sim/sim.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\fll/fll.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\ftfa/ftfa.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\pll/pll.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\vref/vref.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\gpio/gpio.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\adc/adc.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\afe/afe.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\pit/pit.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\uart/uart.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\swisr/swisr.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\crc/crc.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\lptmr/lptmr.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\llwu/llwu.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\smc/smc.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\pmc/pmc.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\rnga/rnga.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\cmp/cmp.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\i2c/i2c.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\xbar/xbar.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\tmr/tmr.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\irtc/irtc.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\wdog/wdog.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\spi/spi.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\osc/osc.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\osc32k/osc32k.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\dma/dma.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\mpu/mpu.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\aips/aips.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\rcm/rcm.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\mcm/mcm.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\syst/syst.h)(0x57D35D54)
+I (..\..\..\..\src\freemaster\freemaster.h)(0x57D35D54)
+I (..\..\..\..\src\freemaster\freemaster_defcfg.h)(0x57D35D54)
+I (..\..\..\..\src\projects\mk341ph\freemaster_cfg.h)(0x57D35D56)
+I (..\..\..\..\src\freemaster\freemaster_tsa.h)(0x57D35D54)
+I (..\..\..\..\src\fraclib\fraclib.h)(0x57D35D54)
+I (..\..\..\..\src\fraclib\FRACLIB_Types.h)(0x57D35D54)
+I (..\..\..\..\src\fraclib\FRACLIB_Mul32.h)(0x57D35D54)
+I (..\..\..\..\src\fraclib\FRACLIB_Inlines.h)(0x57D35D54)
+I (..\..\..\..\src\meterlib\meterlib.h)(0x57F9F8F6)
+I (..\..\..\..\src\projects\mk341ph\system_config.h)(0x593FAF46)
+I (..\..\..\..\src\projects\mk341ph\smarthome_meter.h)(0x57FB1A46)
+I (..\..\..\..\src\projects\mk341ph\smarthome_cfg.h)(0x57FB3D52)
+I (..\..\..\..\src\projects\mk341ph\i2ceeprom.h)(0x57D561D8)
+I (..\..\..\..\src\ampm_lib\common\comm.h)(0x57D35D54)
+I (..\..\..\..\src\ampm_lib\lib/ringbuf.h)(0x57D35D54)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7D364)
+I (..\..\..\..\src\ampm_lib\lib/data_cmp.h)(0x57D35D54)
+I (..\..\..\..\src\ampm_lib\lib/ampm_sprintf.h)(0x57D35D54)
+I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7D364)
+I (..\..\..\..\src\ampm_lib\lib/protocol.h)(0x57D35D54)
+I (..\..\..\..\src\ampm_lib\lib/fcs.h)(0x57D35D54)
+I (..\..\..\..\src\projects\mk341ph\app_config_task.h)(0x57FB4544)
+I (..\..\..\..\src\ampm_lib\lib/sys_tick.h)(0x57D35D54)
+I (..\..\..\..\src\projects\mk341ph\proto_parser.h)(0x57D35D56)
+I (..\..\..\..\src\projects\mk341ph\app_rtc.h)(0x57D35D56)
+I (..\..\..\..\src\projects\mk341ph\auto_calib.h)(0x57FB51DC)
+F (..\..\..\..\src\projects\mk341ph\smarthome_meter.c)(0x57FB168C)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 -Otime --apcs=interwork -I..\..\..\..\src\common -I..\..\..\..\src\common\headers -I..\..\..\..\src\drivers -I..\..\..\..\src\freemaster -I..\..\..\..\src\toolchain\uv -I..\..\..\..\src\meterlib -I..\..\..\..\src\fraclib -I..\..\..\..\src\projects\mk341ph -I..\..\..\..\src\projects\mk341ph -I..\..\..\..\src\ampm_lib -I..\..\..\..\src\ampm_lib\uip -I..\..\..\..\src\ampm_lib\ampm_gsm -I..\..\..\..\src\ampm_lib\common -I..\..\..\..\src\ampm_lib\PPP -I..\..\..\..\src\ampm_lib\uip-ppp-lib -I..\..\..\..\src\ampm_lib\flash_mem -I..\..\..\..\src\polarssl-1.3.8\include -I..\..\..\..\src\polarssl-1.3.8 -I..\..\..\..\src\dlt645 --diag_suppress=1,951 --c99 --bss_threshold=0-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Freescale\Kinetis-DNDEBUG -DMESH_NET_SUPPORT -DHAS_HOST_UART -DGSM_SUPPORT-o .\release\smarthome_meter.o --omf_browse .\release\smarthome_meter.crf --depend .\release\smarthome_meter.d)
+I (..\..\..\..\src\projects\mk341ph\smarthome_meter.h)(0x57FB1A46)
+I (..\..\..\..\src\fraclib\fraclib.h)(0x57D35D54)
+I (..\..\..\..\src\fraclib\FRACLIB_Types.h)(0x57D35D54)
+I (..\..\..\..\src\fraclib\FRACLIB_Mul32.h)(0x57D35D54)
+I (..\..\..\..\src\fraclib\FRACLIB_Inlines.h)(0x57D35D54)
+I (..\..\..\..\src\meterlib\meterlib.h)(0x57F9F8F6)
+F (..\..\..\..\src\projects\mk341ph\proto_parser.c)(0x57D35D56)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 -Otime --apcs=interwork -I..\..\..\..\src\common -I..\..\..\..\src\common\headers -I..\..\..\..\src\drivers -I..\..\..\..\src\freemaster -I..\..\..\..\src\toolchain\uv -I..\..\..\..\src\meterlib -I..\..\..\..\src\fraclib -I..\..\..\..\src\projects\mk341ph -I..\..\..\..\src\projects\mk341ph -I..\..\..\..\src\ampm_lib -I..\..\..\..\src\ampm_lib\uip -I..\..\..\..\src\ampm_lib\ampm_gsm -I..\..\..\..\src\ampm_lib\common -I..\..\..\..\src\ampm_lib\PPP -I..\..\..\..\src\ampm_lib\uip-ppp-lib -I..\..\..\..\src\ampm_lib\flash_mem -I..\..\..\..\src\polarssl-1.3.8\include -I..\..\..\..\src\polarssl-1.3.8 -I..\..\..\..\src\dlt645 --diag_suppress=1,951 --c99 --bss_threshold=0-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Freescale\Kinetis-DNDEBUG -DMESH_NET_SUPPORT -DHAS_HOST_UART -DGSM_SUPPORT-o .\release\proto_parser.o --omf_browse .\release\proto_parser.crf --depend .\release\proto_parser.d)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7D364)
+I (..\..\..\..\src\projects\mk341ph\proto_parser.h)(0x57D35D56)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7D364)
+F (..\..\..\..\src\projects\mk341ph\app_config_task.c)(0x57FB4A2C)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 -Otime --apcs=interwork -I..\..\..\..\src\common -I..\..\..\..\src\common\headers -I..\..\..\..\src\drivers -I..\..\..\..\src\freemaster -I..\..\..\..\src\toolchain\uv -I..\..\..\..\src\meterlib -I..\..\..\..\src\fraclib -I..\..\..\..\src\projects\mk341ph -I..\..\..\..\src\projects\mk341ph -I..\..\..\..\src\ampm_lib -I..\..\..\..\src\ampm_lib\uip -I..\..\..\..\src\ampm_lib\ampm_gsm -I..\..\..\..\src\ampm_lib\common -I..\..\..\..\src\ampm_lib\PPP -I..\..\..\..\src\ampm_lib\uip-ppp-lib -I..\..\..\..\src\ampm_lib\flash_mem -I..\..\..\..\src\polarssl-1.3.8\include -I..\..\..\..\src\polarssl-1.3.8 -I..\..\..\..\src\dlt645 --diag_suppress=1,951 --c99 --bss_threshold=0-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Freescale\Kinetis-DNDEBUG -DMESH_NET_SUPPORT -DHAS_HOST_UART -DGSM_SUPPORT-o .\release\app_config_task.o --omf_browse .\release\app_config_task.crf --depend .\release\app_config_task.d)
+I (..\..\..\..\src\projects\mk341ph\app_config_task.h)(0x57FB4544)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7D364)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7D364)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7D364)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7D364)
+I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7D364)
+I (..\..\..\..\src\ampm_lib\lib/sys_tick.h)(0x57D35D54)
+I (..\..\..\..\src\ampm_lib\lib/ringbuf.h)(0x57D35D54)
+I (..\..\..\..\src\projects\mk341ph\system_config.h)(0x593FAF46)
+I (..\..\..\..\src\common\common.h)(0x57D35D54)
+I (..\..\..\..\src\projects\mk341ph\appconfig.h)(0x57F9D14A)
+I (..\..\..\..\src\common\headers/MKM34Z5.h)(0x57D35D54)
+I (..\..\..\..\src\common\iohw.h)(0x57D35D54)
+I (..\..\..\..\src\common\startup.h)(0x57D35D54)
+I (..\..\..\..\src\common\arm_cm0.h)(0x57D35D54)
+I (..\..\..\..\src\common\arch_delay.h)(0x57D35D54)
+I (..\..\..\..\src\common\delay.h)(0x57D35D54)
+I (..\..\..\..\src\fraclib\fraclib.h)(0x57D35D54)
+I (..\..\..\..\src\fraclib\FRACLIB_Types.h)(0x57D35D54)
+I (..\..\..\..\src\fraclib\FRACLIB_Mul32.h)(0x57D35D54)
+I (..\..\..\..\src\fraclib\FRACLIB_Inlines.h)(0x57D35D54)
+I (..\..\..\..\src\projects\mk341ph\smarthome_meter.h)(0x57FB1A46)
+I (..\..\..\..\src\meterlib\meterlib.h)(0x57F9F8F6)
+I (..\..\..\..\src\projects\mk341ph\proto_parser.h)(0x57D35D56)
+I (..\..\..\..\src\projects\mk341ph\smarthome_cfg.h)(0x57FB3D52)
+I (..\..\..\..\src\projects\mk341ph\i2ceeprom.h)(0x57D561D8)
+I (..\..\..\..\src\drivers\drivers.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\sim/sim.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\fll/fll.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\ftfa/ftfa.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\pll/pll.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\vref/vref.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\gpio/gpio.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\adc/adc.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\afe/afe.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\pit/pit.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\uart/uart.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\swisr/swisr.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\crc/crc.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\lptmr/lptmr.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\llwu/llwu.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\smc/smc.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\pmc/pmc.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\rnga/rnga.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\cmp/cmp.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\i2c/i2c.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\xbar/xbar.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\tmr/tmr.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\irtc/irtc.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\wdog/wdog.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\spi/spi.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\osc/osc.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\osc32k/osc32k.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\dma/dma.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\mpu/mpu.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\aips/aips.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\rcm/rcm.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\mcm/mcm.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\syst/syst.h)(0x57D35D54)
+I (..\..\..\..\src\freemaster\freemaster.h)(0x57D35D54)
+I (..\..\..\..\src\freemaster\freemaster_defcfg.h)(0x57D35D54)
+I (..\..\..\..\src\projects\mk341ph\freemaster_cfg.h)(0x57D35D56)
+I (..\..\..\..\src\freemaster\freemaster_tsa.h)(0x57D35D54)
+I (..\..\..\..\src\ampm_lib\lib/protocol.h)(0x57D35D54)
+I (..\..\..\..\src\ampm_lib\lib/fcs.h)(0x57D35D54)
+I (..\..\..\..\src\ampm_lib\common\comm.h)(0x57D35D54)
+I (..\..\..\..\src\projects\mk341ph\main.h)(0x57FB0ADE)
+I (C:\Keil\ARM\ARMCC\include\math.h)(0x51C7D364)
+I (..\..\..\..\src\ampm_lib\lib/data_cmp.h)(0x57D35D54)
+I (..\..\..\..\src\ampm_lib\lib/ampm_sprintf.h)(0x57D35D54)
+I (..\..\..\..\src\projects\mk341ph\app_rtc.h)(0x57D35D56)
+I (..\..\..\..\src\projects\mk341ph\auto_calib.h)(0x57FB51DC)
+I (..\..\..\..\src\projects\mk341ph\aes128.h)(0x57D35D56)
+F (..\..\..\..\src\projects\mk341ph\app_rtc.c)(0x57D35D56)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 -Otime --apcs=interwork -I..\..\..\..\src\common -I..\..\..\..\src\common\headers -I..\..\..\..\src\drivers -I..\..\..\..\src\freemaster -I..\..\..\..\src\toolchain\uv -I..\..\..\..\src\meterlib -I..\..\..\..\src\fraclib -I..\..\..\..\src\projects\mk341ph -I..\..\..\..\src\projects\mk341ph -I..\..\..\..\src\ampm_lib -I..\..\..\..\src\ampm_lib\uip -I..\..\..\..\src\ampm_lib\ampm_gsm -I..\..\..\..\src\ampm_lib\common -I..\..\..\..\src\ampm_lib\PPP -I..\..\..\..\src\ampm_lib\uip-ppp-lib -I..\..\..\..\src\ampm_lib\flash_mem -I..\..\..\..\src\polarssl-1.3.8\include -I..\..\..\..\src\polarssl-1.3.8 -I..\..\..\..\src\dlt645 --diag_suppress=1,951 --c99 --bss_threshold=0-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Freescale\Kinetis-DNDEBUG -DMESH_NET_SUPPORT -DHAS_HOST_UART -DGSM_SUPPORT-o .\release\app_rtc.o --omf_browse .\release\app_rtc.crf --depend .\release\app_rtc.d)
+I (..\..\..\..\src\projects\mk341ph\app_rtc.h)(0x57D35D56)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7D364)
+I (..\..\..\..\src\drivers\drivers.h)(0x57D35D54)
+I (..\..\..\..\src\common\common.h)(0x57D35D54)
+I (..\..\..\..\src\projects\mk341ph\appconfig.h)(0x57F9D14A)
+I (..\..\..\..\src\common\headers/MKM34Z5.h)(0x57D35D54)
+I (..\..\..\..\src\common\iohw.h)(0x57D35D54)
+I (..\..\..\..\src\common\startup.h)(0x57D35D54)
+I (..\..\..\..\src\common\arm_cm0.h)(0x57D35D54)
+I (..\..\..\..\src\common\arch_delay.h)(0x57D35D54)
+I (..\..\..\..\src\common\delay.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\sim/sim.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\fll/fll.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\ftfa/ftfa.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\pll/pll.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\vref/vref.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\gpio/gpio.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\adc/adc.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\afe/afe.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\pit/pit.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\uart/uart.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\swisr/swisr.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\crc/crc.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\lptmr/lptmr.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\llwu/llwu.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\smc/smc.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\pmc/pmc.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\rnga/rnga.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\cmp/cmp.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\i2c/i2c.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\xbar/xbar.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\tmr/tmr.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\irtc/irtc.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\wdog/wdog.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\spi/spi.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\osc/osc.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\osc32k/osc32k.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\dma/dma.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\mpu/mpu.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\aips/aips.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\rcm/rcm.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\mcm/mcm.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\syst/syst.h)(0x57D35D54)
+I (..\..\..\..\src\freemaster\freemaster.h)(0x57D35D54)
+I (..\..\..\..\src\freemaster\freemaster_defcfg.h)(0x57D35D54)
+I (..\..\..\..\src\projects\mk341ph\freemaster_cfg.h)(0x57D35D56)
+I (..\..\..\..\src\freemaster\freemaster_tsa.h)(0x57D35D54)
+F (..\..\..\..\src\projects\mk341ph\auto_calib.c)(0x57FB533A)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 -Otime --apcs=interwork -I..\..\..\..\src\common -I..\..\..\..\src\common\headers -I..\..\..\..\src\drivers -I..\..\..\..\src\freemaster -I..\..\..\..\src\toolchain\uv -I..\..\..\..\src\meterlib -I..\..\..\..\src\fraclib -I..\..\..\..\src\projects\mk341ph -I..\..\..\..\src\projects\mk341ph -I..\..\..\..\src\ampm_lib -I..\..\..\..\src\ampm_lib\uip -I..\..\..\..\src\ampm_lib\ampm_gsm -I..\..\..\..\src\ampm_lib\common -I..\..\..\..\src\ampm_lib\PPP -I..\..\..\..\src\ampm_lib\uip-ppp-lib -I..\..\..\..\src\ampm_lib\flash_mem -I..\..\..\..\src\polarssl-1.3.8\include -I..\..\..\..\src\polarssl-1.3.8 -I..\..\..\..\src\dlt645 --diag_suppress=1,951 --c99 --bss_threshold=0-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Freescale\Kinetis-DNDEBUG -DMESH_NET_SUPPORT -DHAS_HOST_UART -DGSM_SUPPORT-o .\release\auto_calib.o --omf_browse .\release\auto_calib.crf --depend .\release\auto_calib.d)
+I (..\..\..\..\src\projects\mk341ph\main.h)(0x57FB0ADE)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7D364)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7D364)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7D364)
+I (C:\Keil\ARM\ARMCC\include\math.h)(0x51C7D364)
+I (..\..\..\..\src\projects\mk341ph\appconfig.h)(0x57F9D14A)
+I (..\..\..\..\src\drivers\drivers.h)(0x57D35D54)
+I (..\..\..\..\src\common\common.h)(0x57D35D54)
+I (..\..\..\..\src\common\headers/MKM34Z5.h)(0x57D35D54)
+I (..\..\..\..\src\common\iohw.h)(0x57D35D54)
+I (..\..\..\..\src\common\startup.h)(0x57D35D54)
+I (..\..\..\..\src\common\arm_cm0.h)(0x57D35D54)
+I (..\..\..\..\src\common\arch_delay.h)(0x57D35D54)
+I (..\..\..\..\src\common\delay.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\sim/sim.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\fll/fll.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\ftfa/ftfa.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\pll/pll.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\vref/vref.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\gpio/gpio.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\adc/adc.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\afe/afe.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\pit/pit.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\uart/uart.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\swisr/swisr.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\crc/crc.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\lptmr/lptmr.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\llwu/llwu.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\smc/smc.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\pmc/pmc.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\rnga/rnga.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\cmp/cmp.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\i2c/i2c.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\xbar/xbar.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\tmr/tmr.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\irtc/irtc.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\wdog/wdog.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\spi/spi.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\osc/osc.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\osc32k/osc32k.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\dma/dma.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\mpu/mpu.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\aips/aips.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\rcm/rcm.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\mcm/mcm.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\syst/syst.h)(0x57D35D54)
+I (..\..\..\..\src\freemaster\freemaster.h)(0x57D35D54)
+I (..\..\..\..\src\freemaster\freemaster_defcfg.h)(0x57D35D54)
+I (..\..\..\..\src\projects\mk341ph\freemaster_cfg.h)(0x57D35D56)
+I (..\..\..\..\src\freemaster\freemaster_tsa.h)(0x57D35D54)
+I (..\..\..\..\src\fraclib\fraclib.h)(0x57D35D54)
+I (..\..\..\..\src\fraclib\FRACLIB_Types.h)(0x57D35D54)
+I (..\..\..\..\src\fraclib\FRACLIB_Mul32.h)(0x57D35D54)
+I (..\..\..\..\src\fraclib\FRACLIB_Inlines.h)(0x57D35D54)
+I (..\..\..\..\src\meterlib\meterlib.h)(0x57F9F8F6)
+I (..\..\..\..\src\projects\mk341ph\system_config.h)(0x593FAF46)
+I (..\..\..\..\src\projects\mk341ph\smarthome_meter.h)(0x57FB1A46)
+I (..\..\..\..\src\projects\mk341ph\smarthome_cfg.h)(0x57FB3D52)
+I (..\..\..\..\src\projects\mk341ph\i2ceeprom.h)(0x57D561D8)
+I (..\..\..\..\src\ampm_lib\common\comm.h)(0x57D35D54)
+I (..\..\..\..\src\ampm_lib\lib/ringbuf.h)(0x57D35D54)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7D364)
+I (..\..\..\..\src\ampm_lib\lib/data_cmp.h)(0x57D35D54)
+I (..\..\..\..\src\ampm_lib\lib/ampm_sprintf.h)(0x57D35D54)
+I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7D364)
+I (..\..\..\..\src\ampm_lib\lib/protocol.h)(0x57D35D54)
+I (..\..\..\..\src\ampm_lib\lib/fcs.h)(0x57D35D54)
+I (..\..\..\..\src\projects\mk341ph\app_config_task.h)(0x57FB4544)
+I (..\..\..\..\src\ampm_lib\lib/sys_tick.h)(0x57D35D54)
+I (..\..\..\..\src\projects\mk341ph\proto_parser.h)(0x57D35D56)
+I (..\..\..\..\src\projects\mk341ph\app_rtc.h)(0x57D35D56)
+I (..\..\..\..\src\projects\mk341ph\auto_calib.h)(0x57FB51DC)
+F (.\MKMxxZ128_flash_NVM.scf)(0x57D561D6)()
+F (..\..\..\..\src\common\arm_cm0.c)(0x57D35D54)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 -Otime --apcs=interwork -I..\..\..\..\src\common -I..\..\..\..\src\common\headers -I..\..\..\..\src\drivers -I..\..\..\..\src\freemaster -I..\..\..\..\src\toolchain\uv -I..\..\..\..\src\meterlib -I..\..\..\..\src\fraclib -I..\..\..\..\src\projects\mk341ph -I..\..\..\..\src\projects\mk341ph -I..\..\..\..\src\ampm_lib -I..\..\..\..\src\ampm_lib\uip -I..\..\..\..\src\ampm_lib\ampm_gsm -I..\..\..\..\src\ampm_lib\common -I..\..\..\..\src\ampm_lib\PPP -I..\..\..\..\src\ampm_lib\uip-ppp-lib -I..\..\..\..\src\ampm_lib\flash_mem -I..\..\..\..\src\polarssl-1.3.8\include -I..\..\..\..\src\polarssl-1.3.8 -I..\..\..\..\src\dlt645 --diag_suppress=1,951 --c99 --bss_threshold=0-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Freescale\Kinetis-DNDEBUG -DMESH_NET_SUPPORT -DHAS_HOST_UART -DGSM_SUPPORT-o .\release\arm_cm0.o --omf_browse .\release\arm_cm0.crf --depend .\release\arm_cm0.d)
+I (..\..\..\..\src\common\common.h)(0x57D35D54)
+I (..\..\..\..\src\projects\mk341ph\appconfig.h)(0x57F9D14A)
+I (..\..\..\..\src\common\headers/MKM34Z5.h)(0x57D35D54)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7D364)
+I (..\..\..\..\src\common\iohw.h)(0x57D35D54)
+I (..\..\..\..\src\common\startup.h)(0x57D35D54)
+I (..\..\..\..\src\common\arm_cm0.h)(0x57D35D54)
+I (..\..\..\..\src\common\arch_delay.h)(0x57D35D54)
+I (..\..\..\..\src\common\delay.h)(0x57D35D54)
+F (..\..\..\..\src\common\start.c)(0x57D35D54)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 -Otime --apcs=interwork -I..\..\..\..\src\common -I..\..\..\..\src\common\headers -I..\..\..\..\src\drivers -I..\..\..\..\src\freemaster -I..\..\..\..\src\toolchain\uv -I..\..\..\..\src\meterlib -I..\..\..\..\src\fraclib -I..\..\..\..\src\projects\mk341ph -I..\..\..\..\src\projects\mk341ph -I..\..\..\..\src\ampm_lib -I..\..\..\..\src\ampm_lib\uip -I..\..\..\..\src\ampm_lib\ampm_gsm -I..\..\..\..\src\ampm_lib\common -I..\..\..\..\src\ampm_lib\PPP -I..\..\..\..\src\ampm_lib\uip-ppp-lib -I..\..\..\..\src\ampm_lib\flash_mem -I..\..\..\..\src\polarssl-1.3.8\include -I..\..\..\..\src\polarssl-1.3.8 -I..\..\..\..\src\dlt645 --diag_suppress=1,951 --c99 --bss_threshold=0-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Freescale\Kinetis-DNDEBUG -DMESH_NET_SUPPORT -DHAS_HOST_UART -DGSM_SUPPORT-o .\release\start.o --omf_browse .\release\start.crf --depend .\release\start.d)
+I (..\..\..\..\src\common\start.h)(0x57D35D54)
+I (..\..\..\..\src\common\common.h)(0x57D35D54)
+I (..\..\..\..\src\projects\mk341ph\appconfig.h)(0x57F9D14A)
+I (..\..\..\..\src\common\headers/MKM34Z5.h)(0x57D35D54)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7D364)
+I (..\..\..\..\src\common\iohw.h)(0x57D35D54)
+I (..\..\..\..\src\common\startup.h)(0x57D35D54)
+I (..\..\..\..\src\common\arm_cm0.h)(0x57D35D54)
+I (..\..\..\..\src\common\arch_delay.h)(0x57D35D54)
+I (..\..\..\..\src\common\delay.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\drivers.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\sim/sim.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\fll/fll.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\ftfa/ftfa.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\pll/pll.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\vref/vref.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\gpio/gpio.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\adc/adc.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\afe/afe.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\pit/pit.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\uart/uart.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\swisr/swisr.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\crc/crc.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\lptmr/lptmr.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\llwu/llwu.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\smc/smc.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\pmc/pmc.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\rnga/rnga.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\cmp/cmp.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\i2c/i2c.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\xbar/xbar.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\tmr/tmr.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\irtc/irtc.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\wdog/wdog.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\spi/spi.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\osc/osc.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\osc32k/osc32k.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\dma/dma.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\mpu/mpu.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\aips/aips.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\rcm/rcm.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\mcm/mcm.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\syst/syst.h)(0x57D35D54)
+I (..\..\..\..\src\freemaster\freemaster.h)(0x57D35D54)
+I (..\..\..\..\src\freemaster\freemaster_defcfg.h)(0x57D35D54)
+I (..\..\..\..\src\projects\mk341ph\freemaster_cfg.h)(0x57D35D56)
+I (..\..\..\..\src\freemaster\freemaster_tsa.h)(0x57D35D54)
+F (..\..\..\..\src\common\system.c)(0x57D35D54)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 -Otime --apcs=interwork -I..\..\..\..\src\common -I..\..\..\..\src\common\headers -I..\..\..\..\src\drivers -I..\..\..\..\src\freemaster -I..\..\..\..\src\toolchain\uv -I..\..\..\..\src\meterlib -I..\..\..\..\src\fraclib -I..\..\..\..\src\projects\mk341ph -I..\..\..\..\src\projects\mk341ph -I..\..\..\..\src\ampm_lib -I..\..\..\..\src\ampm_lib\uip -I..\..\..\..\src\ampm_lib\ampm_gsm -I..\..\..\..\src\ampm_lib\common -I..\..\..\..\src\ampm_lib\PPP -I..\..\..\..\src\ampm_lib\uip-ppp-lib -I..\..\..\..\src\ampm_lib\flash_mem -I..\..\..\..\src\polarssl-1.3.8\include -I..\..\..\..\src\polarssl-1.3.8 -I..\..\..\..\src\dlt645 --diag_suppress=1,951 --c99 --bss_threshold=0-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Freescale\Kinetis-DNDEBUG -DMESH_NET_SUPPORT -DHAS_HOST_UART -DGSM_SUPPORT-o .\release\system.o --omf_browse .\release\system.crf --depend .\release\system.d)
+I (..\..\..\..\src\projects\mk341ph\appconfig.h)(0x57F9D14A)
+I (..\..\..\..\src\common\system.h)(0x57D35D54)
+I (..\..\..\..\src\common\common.h)(0x57D35D54)
+I (..\..\..\..\src\common\headers/MKM34Z5.h)(0x57D35D54)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7D364)
+I (..\..\..\..\src\common\iohw.h)(0x57D35D54)
+I (..\..\..\..\src\common\startup.h)(0x57D35D54)
+I (..\..\..\..\src\common\arm_cm0.h)(0x57D35D54)
+I (..\..\..\..\src\common\arch_delay.h)(0x57D35D54)
+I (..\..\..\..\src\common\delay.h)(0x57D35D54)
+F (..\..\..\..\src\common\delay.c)(0x57D35D54)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 -Otime --apcs=interwork -I..\..\..\..\src\common -I..\..\..\..\src\common\headers -I..\..\..\..\src\drivers -I..\..\..\..\src\freemaster -I..\..\..\..\src\toolchain\uv -I..\..\..\..\src\meterlib -I..\..\..\..\src\fraclib -I..\..\..\..\src\projects\mk341ph -I..\..\..\..\src\projects\mk341ph -I..\..\..\..\src\ampm_lib -I..\..\..\..\src\ampm_lib\uip -I..\..\..\..\src\ampm_lib\ampm_gsm -I..\..\..\..\src\ampm_lib\common -I..\..\..\..\src\ampm_lib\PPP -I..\..\..\..\src\ampm_lib\uip-ppp-lib -I..\..\..\..\src\ampm_lib\flash_mem -I..\..\..\..\src\polarssl-1.3.8\include -I..\..\..\..\src\polarssl-1.3.8 -I..\..\..\..\src\dlt645 --diag_suppress=1,951 --c99 --bss_threshold=0-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Freescale\Kinetis-DNDEBUG -DMESH_NET_SUPPORT -DHAS_HOST_UART -DGSM_SUPPORT-o .\release\delay.o --omf_browse .\release\delay.crf --depend .\release\delay.d)
+I (..\..\..\..\src\common\delay.h)(0x57D35D54)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7D364)
+I (..\..\..\..\src\common\arch_delay.h)(0x57D35D54)
+F (..\..\..\..\src\toolchain\uv\arch_delay.s)(0x57D35D56)(--cpu Cortex-M0+ -g --apcs=interwork --pd "__MICROLIB SETA 1"-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Freescale\Kinetis--list .\release\arch_delay.lst --xref -o .\release\arch_delay.o --depend .\release\arch_delay.d)
+F (..\..\..\..\src\toolchain\uv\crt0.s)(0x57D35D56)(--cpu Cortex-M0+ -g --apcs=interwork --pd "__MICROLIB SETA 1"-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Freescale\Kinetis--list .\release\crt0.lst --xref -o .\release\crt0.o --depend .\release\crt0.d)
+F (..\..\..\..\src\toolchain\uv\startup.c)(0x57D35D56)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 -Otime --apcs=interwork -I..\..\..\..\src\common -I..\..\..\..\src\common\headers -I..\..\..\..\src\drivers -I..\..\..\..\src\freemaster -I..\..\..\..\src\toolchain\uv -I..\..\..\..\src\meterlib -I..\..\..\..\src\fraclib -I..\..\..\..\src\projects\mk341ph -I..\..\..\..\src\projects\mk341ph -I..\..\..\..\src\ampm_lib -I..\..\..\..\src\ampm_lib\uip -I..\..\..\..\src\ampm_lib\ampm_gsm -I..\..\..\..\src\ampm_lib\common -I..\..\..\..\src\ampm_lib\PPP -I..\..\..\..\src\ampm_lib\uip-ppp-lib -I..\..\..\..\src\ampm_lib\flash_mem -I..\..\..\..\src\polarssl-1.3.8\include -I..\..\..\..\src\polarssl-1.3.8 -I..\..\..\..\src\dlt645 --diag_suppress=1,951 --c99 --bss_threshold=0-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Freescale\Kinetis-DNDEBUG -DMESH_NET_SUPPORT -DHAS_HOST_UART -DGSM_SUPPORT-o .\release\startup.o --omf_browse .\release\startup.crf --depend .\release\startup.d)
+I (..\..\..\..\src\common\common.h)(0x57D35D54)
+I (..\..\..\..\src\projects\mk341ph\appconfig.h)(0x57F9D14A)
+I (..\..\..\..\src\common\headers/MKM34Z5.h)(0x57D35D54)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7D364)
+I (..\..\..\..\src\common\iohw.h)(0x57D35D54)
+I (..\..\..\..\src\common\startup.h)(0x57D35D54)
+I (..\..\..\..\src\common\arm_cm0.h)(0x57D35D54)
+I (..\..\..\..\src\common\arch_delay.h)(0x57D35D54)
+I (..\..\..\..\src\common\delay.h)(0x57D35D54)
+F (..\..\..\..\src\drivers\adc\adc.c)(0x57D35D54)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 -Otime --apcs=interwork -I..\..\..\..\src\common -I..\..\..\..\src\common\headers -I..\..\..\..\src\drivers -I..\..\..\..\src\freemaster -I..\..\..\..\src\toolchain\uv -I..\..\..\..\src\meterlib -I..\..\..\..\src\fraclib -I..\..\..\..\src\projects\mk341ph -I..\..\..\..\src\projects\mk341ph -I..\..\..\..\src\ampm_lib -I..\..\..\..\src\ampm_lib\uip -I..\..\..\..\src\ampm_lib\ampm_gsm -I..\..\..\..\src\ampm_lib\common -I..\..\..\..\src\ampm_lib\PPP -I..\..\..\..\src\ampm_lib\uip-ppp-lib -I..\..\..\..\src\ampm_lib\flash_mem -I..\..\..\..\src\polarssl-1.3.8\include -I..\..\..\..\src\polarssl-1.3.8 -I..\..\..\..\src\dlt645 --diag_suppress=1,951 --c99 --bss_threshold=0-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Freescale\Kinetis-DNDEBUG -DMESH_NET_SUPPORT -DHAS_HOST_UART -DGSM_SUPPORT-o .\release\adc.o --omf_browse .\release\adc.crf --depend .\release\adc.d)
+I (..\..\..\..\src\common\common.h)(0x57D35D54)
+I (..\..\..\..\src\projects\mk341ph\appconfig.h)(0x57F9D14A)
+I (..\..\..\..\src\common\headers/MKM34Z5.h)(0x57D35D54)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7D364)
+I (..\..\..\..\src\common\iohw.h)(0x57D35D54)
+I (..\..\..\..\src\common\startup.h)(0x57D35D54)
+I (..\..\..\..\src\common\arm_cm0.h)(0x57D35D54)
+I (..\..\..\..\src\common\arch_delay.h)(0x57D35D54)
+I (..\..\..\..\src\common\delay.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\adc\adc.h)(0x57D35D54)
+F (..\..\..\..\src\drivers\adc\adc.h)(0x57D35D54)()
+F (..\..\..\..\src\drivers\afe\afe.c)(0x57D35D54)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 -Otime --apcs=interwork -I..\..\..\..\src\common -I..\..\..\..\src\common\headers -I..\..\..\..\src\drivers -I..\..\..\..\src\freemaster -I..\..\..\..\src\toolchain\uv -I..\..\..\..\src\meterlib -I..\..\..\..\src\fraclib -I..\..\..\..\src\projects\mk341ph -I..\..\..\..\src\projects\mk341ph -I..\..\..\..\src\ampm_lib -I..\..\..\..\src\ampm_lib\uip -I..\..\..\..\src\ampm_lib\ampm_gsm -I..\..\..\..\src\ampm_lib\common -I..\..\..\..\src\ampm_lib\PPP -I..\..\..\..\src\ampm_lib\uip-ppp-lib -I..\..\..\..\src\ampm_lib\flash_mem -I..\..\..\..\src\polarssl-1.3.8\include -I..\..\..\..\src\polarssl-1.3.8 -I..\..\..\..\src\dlt645 --diag_suppress=1,951 --c99 --bss_threshold=0-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Freescale\Kinetis-DNDEBUG -DMESH_NET_SUPPORT -DHAS_HOST_UART -DGSM_SUPPORT-o .\release\afe.o --omf_browse .\release\afe.crf --depend .\release\afe.d)
+I (..\..\..\..\src\common\common.h)(0x57D35D54)
+I (..\..\..\..\src\projects\mk341ph\appconfig.h)(0x57F9D14A)
+I (..\..\..\..\src\common\headers/MKM34Z5.h)(0x57D35D54)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7D364)
+I (..\..\..\..\src\common\iohw.h)(0x57D35D54)
+I (..\..\..\..\src\common\startup.h)(0x57D35D54)
+I (..\..\..\..\src\common\arm_cm0.h)(0x57D35D54)
+I (..\..\..\..\src\common\arch_delay.h)(0x57D35D54)
+I (..\..\..\..\src\common\delay.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\afe\afe.h)(0x57D35D54)
+F (..\..\..\..\src\drivers\afe\afe.h)(0x57D35D54)()
+F (..\..\..\..\src\drivers\fll\fll.c)(0x57D35D54)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 -Otime --apcs=interwork -I..\..\..\..\src\common -I..\..\..\..\src\common\headers -I..\..\..\..\src\drivers -I..\..\..\..\src\freemaster -I..\..\..\..\src\toolchain\uv -I..\..\..\..\src\meterlib -I..\..\..\..\src\fraclib -I..\..\..\..\src\projects\mk341ph -I..\..\..\..\src\projects\mk341ph -I..\..\..\..\src\ampm_lib -I..\..\..\..\src\ampm_lib\uip -I..\..\..\..\src\ampm_lib\ampm_gsm -I..\..\..\..\src\ampm_lib\common -I..\..\..\..\src\ampm_lib\PPP -I..\..\..\..\src\ampm_lib\uip-ppp-lib -I..\..\..\..\src\ampm_lib\flash_mem -I..\..\..\..\src\polarssl-1.3.8\include -I..\..\..\..\src\polarssl-1.3.8 -I..\..\..\..\src\dlt645 --diag_suppress=1,951 --c99 --bss_threshold=0-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Freescale\Kinetis-DNDEBUG -DMESH_NET_SUPPORT -DHAS_HOST_UART -DGSM_SUPPORT-o .\release\fll.o --omf_browse .\release\fll.crf --depend .\release\fll.d)
+I (..\..\..\..\src\common\common.h)(0x57D35D54)
+I (..\..\..\..\src\projects\mk341ph\appconfig.h)(0x57F9D14A)
+I (..\..\..\..\src\common\headers/MKM34Z5.h)(0x57D35D54)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7D364)
+I (..\..\..\..\src\common\iohw.h)(0x57D35D54)
+I (..\..\..\..\src\common\startup.h)(0x57D35D54)
+I (..\..\..\..\src\common\arm_cm0.h)(0x57D35D54)
+I (..\..\..\..\src\common\arch_delay.h)(0x57D35D54)
+I (..\..\..\..\src\common\delay.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\fll\fll.h)(0x57D35D54)
+F (..\..\..\..\src\drivers\fll\fll.h)(0x57D35D54)()
+F (..\..\..\..\src\drivers\ftfa\ftfa.c)(0x57D35D54)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 -Otime --apcs=interwork -I..\..\..\..\src\common -I..\..\..\..\src\common\headers -I..\..\..\..\src\drivers -I..\..\..\..\src\freemaster -I..\..\..\..\src\toolchain\uv -I..\..\..\..\src\meterlib -I..\..\..\..\src\fraclib -I..\..\..\..\src\projects\mk341ph -I..\..\..\..\src\projects\mk341ph -I..\..\..\..\src\ampm_lib -I..\..\..\..\src\ampm_lib\uip -I..\..\..\..\src\ampm_lib\ampm_gsm -I..\..\..\..\src\ampm_lib\common -I..\..\..\..\src\ampm_lib\PPP -I..\..\..\..\src\ampm_lib\uip-ppp-lib -I..\..\..\..\src\ampm_lib\flash_mem -I..\..\..\..\src\polarssl-1.3.8\include -I..\..\..\..\src\polarssl-1.3.8 -I..\..\..\..\src\dlt645 --diag_suppress=1,951 --c99 --bss_threshold=0-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Freescale\Kinetis-DNDEBUG -DMESH_NET_SUPPORT -DHAS_HOST_UART -DGSM_SUPPORT-o .\release\ftfa.o --omf_browse .\release\ftfa.crf --depend .\release\ftfa.d)
+I (..\..\..\..\src\common\common.h)(0x57D35D54)
+I (..\..\..\..\src\projects\mk341ph\appconfig.h)(0x57F9D14A)
+I (..\..\..\..\src\common\headers/MKM34Z5.h)(0x57D35D54)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7D364)
+I (..\..\..\..\src\common\iohw.h)(0x57D35D54)
+I (..\..\..\..\src\common\startup.h)(0x57D35D54)
+I (..\..\..\..\src\common\arm_cm0.h)(0x57D35D54)
+I (..\..\..\..\src\common\arch_delay.h)(0x57D35D54)
+I (..\..\..\..\src\common\delay.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\ftfa\ftfa.h)(0x57D35D54)
+F (..\..\..\..\src\drivers\ftfa\ftfa.h)(0x57D35D54)()
+F (..\..\..\..\src\drivers\gpio\gpio.c)(0x57D35D54)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 -Otime --apcs=interwork -I..\..\..\..\src\common -I..\..\..\..\src\common\headers -I..\..\..\..\src\drivers -I..\..\..\..\src\freemaster -I..\..\..\..\src\toolchain\uv -I..\..\..\..\src\meterlib -I..\..\..\..\src\fraclib -I..\..\..\..\src\projects\mk341ph -I..\..\..\..\src\projects\mk341ph -I..\..\..\..\src\ampm_lib -I..\..\..\..\src\ampm_lib\uip -I..\..\..\..\src\ampm_lib\ampm_gsm -I..\..\..\..\src\ampm_lib\common -I..\..\..\..\src\ampm_lib\PPP -I..\..\..\..\src\ampm_lib\uip-ppp-lib -I..\..\..\..\src\ampm_lib\flash_mem -I..\..\..\..\src\polarssl-1.3.8\include -I..\..\..\..\src\polarssl-1.3.8 -I..\..\..\..\src\dlt645 --diag_suppress=1,951 --c99 --bss_threshold=0-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Freescale\Kinetis-DNDEBUG -DMESH_NET_SUPPORT -DHAS_HOST_UART -DGSM_SUPPORT-o .\release\gpio.o --omf_browse .\release\gpio.crf --depend .\release\gpio.d)
+I (..\..\..\..\src\common\common.h)(0x57D35D54)
+I (..\..\..\..\src\projects\mk341ph\appconfig.h)(0x57F9D14A)
+I (..\..\..\..\src\common\headers/MKM34Z5.h)(0x57D35D54)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7D364)
+I (..\..\..\..\src\common\iohw.h)(0x57D35D54)
+I (..\..\..\..\src\common\startup.h)(0x57D35D54)
+I (..\..\..\..\src\common\arm_cm0.h)(0x57D35D54)
+I (..\..\..\..\src\common\arch_delay.h)(0x57D35D54)
+I (..\..\..\..\src\common\delay.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\gpio\gpio.h)(0x57D35D54)
+F (..\..\..\..\src\drivers\gpio\gpio.h)(0x57D35D54)()
+F (..\..\..\..\src\drivers\i2c\i2c.c)(0x57D35D54)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 -Otime --apcs=interwork -I..\..\..\..\src\common -I..\..\..\..\src\common\headers -I..\..\..\..\src\drivers -I..\..\..\..\src\freemaster -I..\..\..\..\src\toolchain\uv -I..\..\..\..\src\meterlib -I..\..\..\..\src\fraclib -I..\..\..\..\src\projects\mk341ph -I..\..\..\..\src\projects\mk341ph -I..\..\..\..\src\ampm_lib -I..\..\..\..\src\ampm_lib\uip -I..\..\..\..\src\ampm_lib\ampm_gsm -I..\..\..\..\src\ampm_lib\common -I..\..\..\..\src\ampm_lib\PPP -I..\..\..\..\src\ampm_lib\uip-ppp-lib -I..\..\..\..\src\ampm_lib\flash_mem -I..\..\..\..\src\polarssl-1.3.8\include -I..\..\..\..\src\polarssl-1.3.8 -I..\..\..\..\src\dlt645 --diag_suppress=1,951 --c99 --bss_threshold=0-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Freescale\Kinetis-DNDEBUG -DMESH_NET_SUPPORT -DHAS_HOST_UART -DGSM_SUPPORT-o .\release\i2c.o --omf_browse .\release\i2c.crf --depend .\release\i2c.d)
+I (..\..\..\..\src\common\common.h)(0x57D35D54)
+I (..\..\..\..\src\projects\mk341ph\appconfig.h)(0x57F9D14A)
+I (..\..\..\..\src\common\headers/MKM34Z5.h)(0x57D35D54)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7D364)
+I (..\..\..\..\src\common\iohw.h)(0x57D35D54)
+I (..\..\..\..\src\common\startup.h)(0x57D35D54)
+I (..\..\..\..\src\common\arm_cm0.h)(0x57D35D54)
+I (..\..\..\..\src\common\arch_delay.h)(0x57D35D54)
+I (..\..\..\..\src\common\delay.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\i2c\i2c.h)(0x57D35D54)
+F (..\..\..\..\src\drivers\i2c\i2c.h)(0x57D35D54)()
+F (..\..\..\..\src\drivers\irtc\irtc.c)(0x57D35D54)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 -Otime --apcs=interwork -I..\..\..\..\src\common -I..\..\..\..\src\common\headers -I..\..\..\..\src\drivers -I..\..\..\..\src\freemaster -I..\..\..\..\src\toolchain\uv -I..\..\..\..\src\meterlib -I..\..\..\..\src\fraclib -I..\..\..\..\src\projects\mk341ph -I..\..\..\..\src\projects\mk341ph -I..\..\..\..\src\ampm_lib -I..\..\..\..\src\ampm_lib\uip -I..\..\..\..\src\ampm_lib\ampm_gsm -I..\..\..\..\src\ampm_lib\common -I..\..\..\..\src\ampm_lib\PPP -I..\..\..\..\src\ampm_lib\uip-ppp-lib -I..\..\..\..\src\ampm_lib\flash_mem -I..\..\..\..\src\polarssl-1.3.8\include -I..\..\..\..\src\polarssl-1.3.8 -I..\..\..\..\src\dlt645 --diag_suppress=1,951 --c99 --bss_threshold=0-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Freescale\Kinetis-DNDEBUG -DMESH_NET_SUPPORT -DHAS_HOST_UART -DGSM_SUPPORT-o .\release\irtc.o --omf_browse .\release\irtc.crf --depend .\release\irtc.d)
+I (..\..\..\..\src\common\common.h)(0x57D35D54)
+I (..\..\..\..\src\projects\mk341ph\appconfig.h)(0x57F9D14A)
+I (..\..\..\..\src\common\headers/MKM34Z5.h)(0x57D35D54)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7D364)
+I (..\..\..\..\src\common\iohw.h)(0x57D35D54)
+I (..\..\..\..\src\common\startup.h)(0x57D35D54)
+I (..\..\..\..\src\common\arm_cm0.h)(0x57D35D54)
+I (..\..\..\..\src\common\arch_delay.h)(0x57D35D54)
+I (..\..\..\..\src\common\delay.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\irtc\irtc.h)(0x57D35D54)
+F (..\..\..\..\src\drivers\irtc\irtc.h)(0x57D35D54)()
+F (..\..\..\..\src\drivers\llwu\llwu.c)(0x57D35D54)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 -Otime --apcs=interwork -I..\..\..\..\src\common -I..\..\..\..\src\common\headers -I..\..\..\..\src\drivers -I..\..\..\..\src\freemaster -I..\..\..\..\src\toolchain\uv -I..\..\..\..\src\meterlib -I..\..\..\..\src\fraclib -I..\..\..\..\src\projects\mk341ph -I..\..\..\..\src\projects\mk341ph -I..\..\..\..\src\ampm_lib -I..\..\..\..\src\ampm_lib\uip -I..\..\..\..\src\ampm_lib\ampm_gsm -I..\..\..\..\src\ampm_lib\common -I..\..\..\..\src\ampm_lib\PPP -I..\..\..\..\src\ampm_lib\uip-ppp-lib -I..\..\..\..\src\ampm_lib\flash_mem -I..\..\..\..\src\polarssl-1.3.8\include -I..\..\..\..\src\polarssl-1.3.8 -I..\..\..\..\src\dlt645 --diag_suppress=1,951 --c99 --bss_threshold=0-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Freescale\Kinetis-DNDEBUG -DMESH_NET_SUPPORT -DHAS_HOST_UART -DGSM_SUPPORT-o .\release\llwu.o --omf_browse .\release\llwu.crf --depend .\release\llwu.d)
+I (..\..\..\..\src\common\common.h)(0x57D35D54)
+I (..\..\..\..\src\projects\mk341ph\appconfig.h)(0x57F9D14A)
+I (..\..\..\..\src\common\headers/MKM34Z5.h)(0x57D35D54)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7D364)
+I (..\..\..\..\src\common\iohw.h)(0x57D35D54)
+I (..\..\..\..\src\common\startup.h)(0x57D35D54)
+I (..\..\..\..\src\common\arm_cm0.h)(0x57D35D54)
+I (..\..\..\..\src\common\arch_delay.h)(0x57D35D54)
+I (..\..\..\..\src\common\delay.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\llwu\llwu.h)(0x57D35D54)
+F (..\..\..\..\src\drivers\llwu\llwu.h)(0x57D35D54)()
+F (..\..\..\..\src\drivers\lptmr\lptmr.c)(0x57D35D54)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 -Otime --apcs=interwork -I..\..\..\..\src\common -I..\..\..\..\src\common\headers -I..\..\..\..\src\drivers -I..\..\..\..\src\freemaster -I..\..\..\..\src\toolchain\uv -I..\..\..\..\src\meterlib -I..\..\..\..\src\fraclib -I..\..\..\..\src\projects\mk341ph -I..\..\..\..\src\projects\mk341ph -I..\..\..\..\src\ampm_lib -I..\..\..\..\src\ampm_lib\uip -I..\..\..\..\src\ampm_lib\ampm_gsm -I..\..\..\..\src\ampm_lib\common -I..\..\..\..\src\ampm_lib\PPP -I..\..\..\..\src\ampm_lib\uip-ppp-lib -I..\..\..\..\src\ampm_lib\flash_mem -I..\..\..\..\src\polarssl-1.3.8\include -I..\..\..\..\src\polarssl-1.3.8 -I..\..\..\..\src\dlt645 --diag_suppress=1,951 --c99 --bss_threshold=0-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Freescale\Kinetis-DNDEBUG -DMESH_NET_SUPPORT -DHAS_HOST_UART -DGSM_SUPPORT-o .\release\lptmr.o --omf_browse .\release\lptmr.crf --depend .\release\lptmr.d)
+I (..\..\..\..\src\common\common.h)(0x57D35D54)
+I (..\..\..\..\src\projects\mk341ph\appconfig.h)(0x57F9D14A)
+I (..\..\..\..\src\common\headers/MKM34Z5.h)(0x57D35D54)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7D364)
+I (..\..\..\..\src\common\iohw.h)(0x57D35D54)
+I (..\..\..\..\src\common\startup.h)(0x57D35D54)
+I (..\..\..\..\src\common\arm_cm0.h)(0x57D35D54)
+I (..\..\..\..\src\common\arch_delay.h)(0x57D35D54)
+I (..\..\..\..\src\common\delay.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\lptmr\lptmr.h)(0x57D35D54)
+F (..\..\..\..\src\drivers\lptmr\lptmr.h)(0x57D35D54)()
+F (..\..\..\..\src\drivers\mcm\mcm.c)(0x57D35D54)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 -Otime --apcs=interwork -I..\..\..\..\src\common -I..\..\..\..\src\common\headers -I..\..\..\..\src\drivers -I..\..\..\..\src\freemaster -I..\..\..\..\src\toolchain\uv -I..\..\..\..\src\meterlib -I..\..\..\..\src\fraclib -I..\..\..\..\src\projects\mk341ph -I..\..\..\..\src\projects\mk341ph -I..\..\..\..\src\ampm_lib -I..\..\..\..\src\ampm_lib\uip -I..\..\..\..\src\ampm_lib\ampm_gsm -I..\..\..\..\src\ampm_lib\common -I..\..\..\..\src\ampm_lib\PPP -I..\..\..\..\src\ampm_lib\uip-ppp-lib -I..\..\..\..\src\ampm_lib\flash_mem -I..\..\..\..\src\polarssl-1.3.8\include -I..\..\..\..\src\polarssl-1.3.8 -I..\..\..\..\src\dlt645 --diag_suppress=1,951 --c99 --bss_threshold=0-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Freescale\Kinetis-DNDEBUG -DMESH_NET_SUPPORT -DHAS_HOST_UART -DGSM_SUPPORT-o .\release\mcm.o --omf_browse .\release\mcm.crf --depend .\release\mcm.d)
+I (..\..\..\..\src\common\common.h)(0x57D35D54)
+I (..\..\..\..\src\projects\mk341ph\appconfig.h)(0x57F9D14A)
+I (..\..\..\..\src\common\headers/MKM34Z5.h)(0x57D35D54)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7D364)
+I (..\..\..\..\src\common\iohw.h)(0x57D35D54)
+I (..\..\..\..\src\common\startup.h)(0x57D35D54)
+I (..\..\..\..\src\common\arm_cm0.h)(0x57D35D54)
+I (..\..\..\..\src\common\arch_delay.h)(0x57D35D54)
+I (..\..\..\..\src\common\delay.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\mcm\mcm.h)(0x57D35D54)
+F (..\..\..\..\src\drivers\mcm\mcm.h)(0x57D35D54)()
+F (..\..\..\..\src\drivers\mpu\mpu.c)(0x57D35D54)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 -Otime --apcs=interwork -I..\..\..\..\src\common -I..\..\..\..\src\common\headers -I..\..\..\..\src\drivers -I..\..\..\..\src\freemaster -I..\..\..\..\src\toolchain\uv -I..\..\..\..\src\meterlib -I..\..\..\..\src\fraclib -I..\..\..\..\src\projects\mk341ph -I..\..\..\..\src\projects\mk341ph -I..\..\..\..\src\ampm_lib -I..\..\..\..\src\ampm_lib\uip -I..\..\..\..\src\ampm_lib\ampm_gsm -I..\..\..\..\src\ampm_lib\common -I..\..\..\..\src\ampm_lib\PPP -I..\..\..\..\src\ampm_lib\uip-ppp-lib -I..\..\..\..\src\ampm_lib\flash_mem -I..\..\..\..\src\polarssl-1.3.8\include -I..\..\..\..\src\polarssl-1.3.8 -I..\..\..\..\src\dlt645 --diag_suppress=1,951 --c99 --bss_threshold=0-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Freescale\Kinetis-DNDEBUG -DMESH_NET_SUPPORT -DHAS_HOST_UART -DGSM_SUPPORT-o .\release\mpu.o --omf_browse .\release\mpu.crf --depend .\release\mpu.d)
+I (..\..\..\..\src\common\common.h)(0x57D35D54)
+I (..\..\..\..\src\projects\mk341ph\appconfig.h)(0x57F9D14A)
+I (..\..\..\..\src\common\headers/MKM34Z5.h)(0x57D35D54)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7D364)
+I (..\..\..\..\src\common\iohw.h)(0x57D35D54)
+I (..\..\..\..\src\common\startup.h)(0x57D35D54)
+I (..\..\..\..\src\common\arm_cm0.h)(0x57D35D54)
+I (..\..\..\..\src\common\arch_delay.h)(0x57D35D54)
+I (..\..\..\..\src\common\delay.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\mpu\mpu.h)(0x57D35D54)
+F (..\..\..\..\src\drivers\mpu\mpu.h)(0x57D35D54)()
+F (..\..\..\..\src\drivers\osc\osc.c)(0x57D35D54)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 -Otime --apcs=interwork -I..\..\..\..\src\common -I..\..\..\..\src\common\headers -I..\..\..\..\src\drivers -I..\..\..\..\src\freemaster -I..\..\..\..\src\toolchain\uv -I..\..\..\..\src\meterlib -I..\..\..\..\src\fraclib -I..\..\..\..\src\projects\mk341ph -I..\..\..\..\src\projects\mk341ph -I..\..\..\..\src\ampm_lib -I..\..\..\..\src\ampm_lib\uip -I..\..\..\..\src\ampm_lib\ampm_gsm -I..\..\..\..\src\ampm_lib\common -I..\..\..\..\src\ampm_lib\PPP -I..\..\..\..\src\ampm_lib\uip-ppp-lib -I..\..\..\..\src\ampm_lib\flash_mem -I..\..\..\..\src\polarssl-1.3.8\include -I..\..\..\..\src\polarssl-1.3.8 -I..\..\..\..\src\dlt645 --diag_suppress=1,951 --c99 --bss_threshold=0-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Freescale\Kinetis-DNDEBUG -DMESH_NET_SUPPORT -DHAS_HOST_UART -DGSM_SUPPORT-o .\release\osc.o --omf_browse .\release\osc.crf --depend .\release\osc.d)
+I (..\..\..\..\src\common\common.h)(0x57D35D54)
+I (..\..\..\..\src\projects\mk341ph\appconfig.h)(0x57F9D14A)
+I (..\..\..\..\src\common\headers/MKM34Z5.h)(0x57D35D54)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7D364)
+I (..\..\..\..\src\common\iohw.h)(0x57D35D54)
+I (..\..\..\..\src\common\startup.h)(0x57D35D54)
+I (..\..\..\..\src\common\arm_cm0.h)(0x57D35D54)
+I (..\..\..\..\src\common\arch_delay.h)(0x57D35D54)
+I (..\..\..\..\src\common\delay.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\osc\osc.h)(0x57D35D54)
+F (..\..\..\..\src\drivers\osc\osc.h)(0x57D35D54)()
+F (..\..\..\..\src\drivers\osc32k\osc32k.c)(0x57D35D54)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 -Otime --apcs=interwork -I..\..\..\..\src\common -I..\..\..\..\src\common\headers -I..\..\..\..\src\drivers -I..\..\..\..\src\freemaster -I..\..\..\..\src\toolchain\uv -I..\..\..\..\src\meterlib -I..\..\..\..\src\fraclib -I..\..\..\..\src\projects\mk341ph -I..\..\..\..\src\projects\mk341ph -I..\..\..\..\src\ampm_lib -I..\..\..\..\src\ampm_lib\uip -I..\..\..\..\src\ampm_lib\ampm_gsm -I..\..\..\..\src\ampm_lib\common -I..\..\..\..\src\ampm_lib\PPP -I..\..\..\..\src\ampm_lib\uip-ppp-lib -I..\..\..\..\src\ampm_lib\flash_mem -I..\..\..\..\src\polarssl-1.3.8\include -I..\..\..\..\src\polarssl-1.3.8 -I..\..\..\..\src\dlt645 --diag_suppress=1,951 --c99 --bss_threshold=0-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Freescale\Kinetis-DNDEBUG -DMESH_NET_SUPPORT -DHAS_HOST_UART -DGSM_SUPPORT-o .\release\osc32k.o --omf_browse .\release\osc32k.crf --depend .\release\osc32k.d)
+I (..\..\..\..\src\common\common.h)(0x57D35D54)
+I (..\..\..\..\src\projects\mk341ph\appconfig.h)(0x57F9D14A)
+I (..\..\..\..\src\common\headers/MKM34Z5.h)(0x57D35D54)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7D364)
+I (..\..\..\..\src\common\iohw.h)(0x57D35D54)
+I (..\..\..\..\src\common\startup.h)(0x57D35D54)
+I (..\..\..\..\src\common\arm_cm0.h)(0x57D35D54)
+I (..\..\..\..\src\common\arch_delay.h)(0x57D35D54)
+I (..\..\..\..\src\common\delay.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\irtc/irtc.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\osc32k\osc32k.h)(0x57D35D54)
+F (..\..\..\..\src\drivers\osc32k\osc32k.h)(0x57D35D54)()
+F (..\..\..\..\src\drivers\pit\pit.c)(0x57D35D54)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 -Otime --apcs=interwork -I..\..\..\..\src\common -I..\..\..\..\src\common\headers -I..\..\..\..\src\drivers -I..\..\..\..\src\freemaster -I..\..\..\..\src\toolchain\uv -I..\..\..\..\src\meterlib -I..\..\..\..\src\fraclib -I..\..\..\..\src\projects\mk341ph -I..\..\..\..\src\projects\mk341ph -I..\..\..\..\src\ampm_lib -I..\..\..\..\src\ampm_lib\uip -I..\..\..\..\src\ampm_lib\ampm_gsm -I..\..\..\..\src\ampm_lib\common -I..\..\..\..\src\ampm_lib\PPP -I..\..\..\..\src\ampm_lib\uip-ppp-lib -I..\..\..\..\src\ampm_lib\flash_mem -I..\..\..\..\src\polarssl-1.3.8\include -I..\..\..\..\src\polarssl-1.3.8 -I..\..\..\..\src\dlt645 --diag_suppress=1,951 --c99 --bss_threshold=0-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Freescale\Kinetis-DNDEBUG -DMESH_NET_SUPPORT -DHAS_HOST_UART -DGSM_SUPPORT-o .\release\pit.o --omf_browse .\release\pit.crf --depend .\release\pit.d)
+I (..\..\..\..\src\common\common.h)(0x57D35D54)
+I (..\..\..\..\src\projects\mk341ph\appconfig.h)(0x57F9D14A)
+I (..\..\..\..\src\common\headers/MKM34Z5.h)(0x57D35D54)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7D364)
+I (..\..\..\..\src\common\iohw.h)(0x57D35D54)
+I (..\..\..\..\src\common\startup.h)(0x57D35D54)
+I (..\..\..\..\src\common\arm_cm0.h)(0x57D35D54)
+I (..\..\..\..\src\common\arch_delay.h)(0x57D35D54)
+I (..\..\..\..\src\common\delay.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\pit\pit.h)(0x57D35D54)
+F (..\..\..\..\src\drivers\pit\pit.h)(0x57D35D54)()
+F (..\..\..\..\src\drivers\pll\pll.c)(0x57D35D54)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 -Otime --apcs=interwork -I..\..\..\..\src\common -I..\..\..\..\src\common\headers -I..\..\..\..\src\drivers -I..\..\..\..\src\freemaster -I..\..\..\..\src\toolchain\uv -I..\..\..\..\src\meterlib -I..\..\..\..\src\fraclib -I..\..\..\..\src\projects\mk341ph -I..\..\..\..\src\projects\mk341ph -I..\..\..\..\src\ampm_lib -I..\..\..\..\src\ampm_lib\uip -I..\..\..\..\src\ampm_lib\ampm_gsm -I..\..\..\..\src\ampm_lib\common -I..\..\..\..\src\ampm_lib\PPP -I..\..\..\..\src\ampm_lib\uip-ppp-lib -I..\..\..\..\src\ampm_lib\flash_mem -I..\..\..\..\src\polarssl-1.3.8\include -I..\..\..\..\src\polarssl-1.3.8 -I..\..\..\..\src\dlt645 --diag_suppress=1,951 --c99 --bss_threshold=0-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Freescale\Kinetis-DNDEBUG -DMESH_NET_SUPPORT -DHAS_HOST_UART -DGSM_SUPPORT-o .\release\pll.o --omf_browse .\release\pll.crf --depend .\release\pll.d)
+I (..\..\..\..\src\common\common.h)(0x57D35D54)
+I (..\..\..\..\src\projects\mk341ph\appconfig.h)(0x57F9D14A)
+I (..\..\..\..\src\common\headers/MKM34Z5.h)(0x57D35D54)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7D364)
+I (..\..\..\..\src\common\iohw.h)(0x57D35D54)
+I (..\..\..\..\src\common\startup.h)(0x57D35D54)
+I (..\..\..\..\src\common\arm_cm0.h)(0x57D35D54)
+I (..\..\..\..\src\common\arch_delay.h)(0x57D35D54)
+I (..\..\..\..\src\common\delay.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\pll\pll.h)(0x57D35D54)
+F (..\..\..\..\src\drivers\pll\pll.h)(0x57D35D54)()
+F (..\..\..\..\src\drivers\pmc\pmc.c)(0x57D35D54)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 -Otime --apcs=interwork -I..\..\..\..\src\common -I..\..\..\..\src\common\headers -I..\..\..\..\src\drivers -I..\..\..\..\src\freemaster -I..\..\..\..\src\toolchain\uv -I..\..\..\..\src\meterlib -I..\..\..\..\src\fraclib -I..\..\..\..\src\projects\mk341ph -I..\..\..\..\src\projects\mk341ph -I..\..\..\..\src\ampm_lib -I..\..\..\..\src\ampm_lib\uip -I..\..\..\..\src\ampm_lib\ampm_gsm -I..\..\..\..\src\ampm_lib\common -I..\..\..\..\src\ampm_lib\PPP -I..\..\..\..\src\ampm_lib\uip-ppp-lib -I..\..\..\..\src\ampm_lib\flash_mem -I..\..\..\..\src\polarssl-1.3.8\include -I..\..\..\..\src\polarssl-1.3.8 -I..\..\..\..\src\dlt645 --diag_suppress=1,951 --c99 --bss_threshold=0-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Freescale\Kinetis-DNDEBUG -DMESH_NET_SUPPORT -DHAS_HOST_UART -DGSM_SUPPORT-o .\release\pmc.o --omf_browse .\release\pmc.crf --depend .\release\pmc.d)
+I (..\..\..\..\src\common\common.h)(0x57D35D54)
+I (..\..\..\..\src\projects\mk341ph\appconfig.h)(0x57F9D14A)
+I (..\..\..\..\src\common\headers/MKM34Z5.h)(0x57D35D54)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7D364)
+I (..\..\..\..\src\common\iohw.h)(0x57D35D54)
+I (..\..\..\..\src\common\startup.h)(0x57D35D54)
+I (..\..\..\..\src\common\arm_cm0.h)(0x57D35D54)
+I (..\..\..\..\src\common\arch_delay.h)(0x57D35D54)
+I (..\..\..\..\src\common\delay.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\pmc\pmc.h)(0x57D35D54)
+F (..\..\..\..\src\drivers\pmc\pmc.h)(0x57D35D54)()
+F (..\..\..\..\src\drivers\rcm\rcm.c)(0x57D35D54)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 -Otime --apcs=interwork -I..\..\..\..\src\common -I..\..\..\..\src\common\headers -I..\..\..\..\src\drivers -I..\..\..\..\src\freemaster -I..\..\..\..\src\toolchain\uv -I..\..\..\..\src\meterlib -I..\..\..\..\src\fraclib -I..\..\..\..\src\projects\mk341ph -I..\..\..\..\src\projects\mk341ph -I..\..\..\..\src\ampm_lib -I..\..\..\..\src\ampm_lib\uip -I..\..\..\..\src\ampm_lib\ampm_gsm -I..\..\..\..\src\ampm_lib\common -I..\..\..\..\src\ampm_lib\PPP -I..\..\..\..\src\ampm_lib\uip-ppp-lib -I..\..\..\..\src\ampm_lib\flash_mem -I..\..\..\..\src\polarssl-1.3.8\include -I..\..\..\..\src\polarssl-1.3.8 -I..\..\..\..\src\dlt645 --diag_suppress=1,951 --c99 --bss_threshold=0-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Freescale\Kinetis-DNDEBUG -DMESH_NET_SUPPORT -DHAS_HOST_UART -DGSM_SUPPORT-o .\release\rcm.o --omf_browse .\release\rcm.crf --depend .\release\rcm.d)
+I (..\..\..\..\src\common\common.h)(0x57D35D54)
+I (..\..\..\..\src\projects\mk341ph\appconfig.h)(0x57F9D14A)
+I (..\..\..\..\src\common\headers/MKM34Z5.h)(0x57D35D54)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7D364)
+I (..\..\..\..\src\common\iohw.h)(0x57D35D54)
+I (..\..\..\..\src\common\startup.h)(0x57D35D54)
+I (..\..\..\..\src\common\arm_cm0.h)(0x57D35D54)
+I (..\..\..\..\src\common\arch_delay.h)(0x57D35D54)
+I (..\..\..\..\src\common\delay.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\rcm\rcm.h)(0x57D35D54)
+F (..\..\..\..\src\drivers\rcm\rcm.h)(0x57D35D54)()
+F (..\..\..\..\src\drivers\rnga\rnga.c)(0x57D35D54)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 -Otime --apcs=interwork -I..\..\..\..\src\common -I..\..\..\..\src\common\headers -I..\..\..\..\src\drivers -I..\..\..\..\src\freemaster -I..\..\..\..\src\toolchain\uv -I..\..\..\..\src\meterlib -I..\..\..\..\src\fraclib -I..\..\..\..\src\projects\mk341ph -I..\..\..\..\src\projects\mk341ph -I..\..\..\..\src\ampm_lib -I..\..\..\..\src\ampm_lib\uip -I..\..\..\..\src\ampm_lib\ampm_gsm -I..\..\..\..\src\ampm_lib\common -I..\..\..\..\src\ampm_lib\PPP -I..\..\..\..\src\ampm_lib\uip-ppp-lib -I..\..\..\..\src\ampm_lib\flash_mem -I..\..\..\..\src\polarssl-1.3.8\include -I..\..\..\..\src\polarssl-1.3.8 -I..\..\..\..\src\dlt645 --diag_suppress=1,951 --c99 --bss_threshold=0-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Freescale\Kinetis-DNDEBUG -DMESH_NET_SUPPORT -DHAS_HOST_UART -DGSM_SUPPORT-o .\release\rnga.o --omf_browse .\release\rnga.crf --depend .\release\rnga.d)
+I (..\..\..\..\src\common\common.h)(0x57D35D54)
+I (..\..\..\..\src\projects\mk341ph\appconfig.h)(0x57F9D14A)
+I (..\..\..\..\src\common\headers/MKM34Z5.h)(0x57D35D54)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7D364)
+I (..\..\..\..\src\common\iohw.h)(0x57D35D54)
+I (..\..\..\..\src\common\startup.h)(0x57D35D54)
+I (..\..\..\..\src\common\arm_cm0.h)(0x57D35D54)
+I (..\..\..\..\src\common\arch_delay.h)(0x57D35D54)
+I (..\..\..\..\src\common\delay.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\rnga\rnga.h)(0x57D35D54)
+F (..\..\..\..\src\drivers\rnga\rnga.h)(0x57D35D54)()
+F (..\..\..\..\src\drivers\sim\sim.c)(0x57D35D54)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 -Otime --apcs=interwork -I..\..\..\..\src\common -I..\..\..\..\src\common\headers -I..\..\..\..\src\drivers -I..\..\..\..\src\freemaster -I..\..\..\..\src\toolchain\uv -I..\..\..\..\src\meterlib -I..\..\..\..\src\fraclib -I..\..\..\..\src\projects\mk341ph -I..\..\..\..\src\projects\mk341ph -I..\..\..\..\src\ampm_lib -I..\..\..\..\src\ampm_lib\uip -I..\..\..\..\src\ampm_lib\ampm_gsm -I..\..\..\..\src\ampm_lib\common -I..\..\..\..\src\ampm_lib\PPP -I..\..\..\..\src\ampm_lib\uip-ppp-lib -I..\..\..\..\src\ampm_lib\flash_mem -I..\..\..\..\src\polarssl-1.3.8\include -I..\..\..\..\src\polarssl-1.3.8 -I..\..\..\..\src\dlt645 --diag_suppress=1,951 --c99 --bss_threshold=0-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Freescale\Kinetis-DNDEBUG -DMESH_NET_SUPPORT -DHAS_HOST_UART -DGSM_SUPPORT-o .\release\sim.o --omf_browse .\release\sim.crf --depend .\release\sim.d)
+I (..\..\..\..\src\common\common.h)(0x57D35D54)
+I (..\..\..\..\src\projects\mk341ph\appconfig.h)(0x57F9D14A)
+I (..\..\..\..\src\common\headers/MKM34Z5.h)(0x57D35D54)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7D364)
+I (..\..\..\..\src\common\iohw.h)(0x57D35D54)
+I (..\..\..\..\src\common\startup.h)(0x57D35D54)
+I (..\..\..\..\src\common\arm_cm0.h)(0x57D35D54)
+I (..\..\..\..\src\common\arch_delay.h)(0x57D35D54)
+I (..\..\..\..\src\common\delay.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\sim\sim.h)(0x57D35D54)
+F (..\..\..\..\src\drivers\sim\sim.h)(0x57D35D54)()
+F (..\..\..\..\src\drivers\smc\smc.c)(0x57D35D54)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 -Otime --apcs=interwork -I..\..\..\..\src\common -I..\..\..\..\src\common\headers -I..\..\..\..\src\drivers -I..\..\..\..\src\freemaster -I..\..\..\..\src\toolchain\uv -I..\..\..\..\src\meterlib -I..\..\..\..\src\fraclib -I..\..\..\..\src\projects\mk341ph -I..\..\..\..\src\projects\mk341ph -I..\..\..\..\src\ampm_lib -I..\..\..\..\src\ampm_lib\uip -I..\..\..\..\src\ampm_lib\ampm_gsm -I..\..\..\..\src\ampm_lib\common -I..\..\..\..\src\ampm_lib\PPP -I..\..\..\..\src\ampm_lib\uip-ppp-lib -I..\..\..\..\src\ampm_lib\flash_mem -I..\..\..\..\src\polarssl-1.3.8\include -I..\..\..\..\src\polarssl-1.3.8 -I..\..\..\..\src\dlt645 --diag_suppress=1,951 --c99 --bss_threshold=0-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Freescale\Kinetis-DNDEBUG -DMESH_NET_SUPPORT -DHAS_HOST_UART -DGSM_SUPPORT-o .\release\smc.o --omf_browse .\release\smc.crf --depend .\release\smc.d)
+I (..\..\..\..\src\common\common.h)(0x57D35D54)
+I (..\..\..\..\src\projects\mk341ph\appconfig.h)(0x57F9D14A)
+I (..\..\..\..\src\common\headers/MKM34Z5.h)(0x57D35D54)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7D364)
+I (..\..\..\..\src\common\iohw.h)(0x57D35D54)
+I (..\..\..\..\src\common\startup.h)(0x57D35D54)
+I (..\..\..\..\src\common\arm_cm0.h)(0x57D35D54)
+I (..\..\..\..\src\common\arch_delay.h)(0x57D35D54)
+I (..\..\..\..\src\common\delay.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\smc\smc.h)(0x57D35D54)
+F (..\..\..\..\src\drivers\smc\smc.h)(0x57D35D54)()
+F (..\..\..\..\src\drivers\spi\spi.c)(0x57D35D54)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 -Otime --apcs=interwork -I..\..\..\..\src\common -I..\..\..\..\src\common\headers -I..\..\..\..\src\drivers -I..\..\..\..\src\freemaster -I..\..\..\..\src\toolchain\uv -I..\..\..\..\src\meterlib -I..\..\..\..\src\fraclib -I..\..\..\..\src\projects\mk341ph -I..\..\..\..\src\projects\mk341ph -I..\..\..\..\src\ampm_lib -I..\..\..\..\src\ampm_lib\uip -I..\..\..\..\src\ampm_lib\ampm_gsm -I..\..\..\..\src\ampm_lib\common -I..\..\..\..\src\ampm_lib\PPP -I..\..\..\..\src\ampm_lib\uip-ppp-lib -I..\..\..\..\src\ampm_lib\flash_mem -I..\..\..\..\src\polarssl-1.3.8\include -I..\..\..\..\src\polarssl-1.3.8 -I..\..\..\..\src\dlt645 --diag_suppress=1,951 --c99 --bss_threshold=0-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Freescale\Kinetis-DNDEBUG -DMESH_NET_SUPPORT -DHAS_HOST_UART -DGSM_SUPPORT-o .\release\spi.o --omf_browse .\release\spi.crf --depend .\release\spi.d)
+I (..\..\..\..\src\common\common.h)(0x57D35D54)
+I (..\..\..\..\src\projects\mk341ph\appconfig.h)(0x57F9D14A)
+I (..\..\..\..\src\common\headers/MKM34Z5.h)(0x57D35D54)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7D364)
+I (..\..\..\..\src\common\iohw.h)(0x57D35D54)
+I (..\..\..\..\src\common\startup.h)(0x57D35D54)
+I (..\..\..\..\src\common\arm_cm0.h)(0x57D35D54)
+I (..\..\..\..\src\common\arch_delay.h)(0x57D35D54)
+I (..\..\..\..\src\common\delay.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\spi\spi.h)(0x57D35D54)
+F (..\..\..\..\src\drivers\spi\spi.h)(0x57D35D54)()
+F (..\..\..\..\src\drivers\swisr\swisr.c)(0x57D35D54)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 -Otime --apcs=interwork -I..\..\..\..\src\common -I..\..\..\..\src\common\headers -I..\..\..\..\src\drivers -I..\..\..\..\src\freemaster -I..\..\..\..\src\toolchain\uv -I..\..\..\..\src\meterlib -I..\..\..\..\src\fraclib -I..\..\..\..\src\projects\mk341ph -I..\..\..\..\src\projects\mk341ph -I..\..\..\..\src\ampm_lib -I..\..\..\..\src\ampm_lib\uip -I..\..\..\..\src\ampm_lib\ampm_gsm -I..\..\..\..\src\ampm_lib\common -I..\..\..\..\src\ampm_lib\PPP -I..\..\..\..\src\ampm_lib\uip-ppp-lib -I..\..\..\..\src\ampm_lib\flash_mem -I..\..\..\..\src\polarssl-1.3.8\include -I..\..\..\..\src\polarssl-1.3.8 -I..\..\..\..\src\dlt645 --diag_suppress=1,951 --c99 --bss_threshold=0-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Freescale\Kinetis-DNDEBUG -DMESH_NET_SUPPORT -DHAS_HOST_UART -DGSM_SUPPORT-o .\release\swisr.o --omf_browse .\release\swisr.crf --depend .\release\swisr.d)
+I (..\..\..\..\src\common\common.h)(0x57D35D54)
+I (..\..\..\..\src\projects\mk341ph\appconfig.h)(0x57F9D14A)
+I (..\..\..\..\src\common\headers/MKM34Z5.h)(0x57D35D54)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7D364)
+I (..\..\..\..\src\common\iohw.h)(0x57D35D54)
+I (..\..\..\..\src\common\startup.h)(0x57D35D54)
+I (..\..\..\..\src\common\arm_cm0.h)(0x57D35D54)
+I (..\..\..\..\src\common\arch_delay.h)(0x57D35D54)
+I (..\..\..\..\src\common\delay.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\swisr\swisr.h)(0x57D35D54)
+F (..\..\..\..\src\drivers\swisr\swisr.h)(0x57D35D54)()
+F (..\..\..\..\src\drivers\syst\syst.c)(0x57D35D54)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 -Otime --apcs=interwork -I..\..\..\..\src\common -I..\..\..\..\src\common\headers -I..\..\..\..\src\drivers -I..\..\..\..\src\freemaster -I..\..\..\..\src\toolchain\uv -I..\..\..\..\src\meterlib -I..\..\..\..\src\fraclib -I..\..\..\..\src\projects\mk341ph -I..\..\..\..\src\projects\mk341ph -I..\..\..\..\src\ampm_lib -I..\..\..\..\src\ampm_lib\uip -I..\..\..\..\src\ampm_lib\ampm_gsm -I..\..\..\..\src\ampm_lib\common -I..\..\..\..\src\ampm_lib\PPP -I..\..\..\..\src\ampm_lib\uip-ppp-lib -I..\..\..\..\src\ampm_lib\flash_mem -I..\..\..\..\src\polarssl-1.3.8\include -I..\..\..\..\src\polarssl-1.3.8 -I..\..\..\..\src\dlt645 --diag_suppress=1,951 --c99 --bss_threshold=0-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Freescale\Kinetis-DNDEBUG -DMESH_NET_SUPPORT -DHAS_HOST_UART -DGSM_SUPPORT-o .\release\syst.o --omf_browse .\release\syst.crf --depend .\release\syst.d)
+I (..\..\..\..\src\common\common.h)(0x57D35D54)
+I (..\..\..\..\src\projects\mk341ph\appconfig.h)(0x57F9D14A)
+I (..\..\..\..\src\common\headers/MKM34Z5.h)(0x57D35D54)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7D364)
+I (..\..\..\..\src\common\iohw.h)(0x57D35D54)
+I (..\..\..\..\src\common\startup.h)(0x57D35D54)
+I (..\..\..\..\src\common\arm_cm0.h)(0x57D35D54)
+I (..\..\..\..\src\common\arch_delay.h)(0x57D35D54)
+I (..\..\..\..\src\common\delay.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\syst\syst.h)(0x57D35D54)
+F (..\..\..\..\src\drivers\syst\syst.h)(0x57D35D54)()
+F (..\..\..\..\src\drivers\tmr\tmr.c)(0x57D35D54)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 -Otime --apcs=interwork -I..\..\..\..\src\common -I..\..\..\..\src\common\headers -I..\..\..\..\src\drivers -I..\..\..\..\src\freemaster -I..\..\..\..\src\toolchain\uv -I..\..\..\..\src\meterlib -I..\..\..\..\src\fraclib -I..\..\..\..\src\projects\mk341ph -I..\..\..\..\src\projects\mk341ph -I..\..\..\..\src\ampm_lib -I..\..\..\..\src\ampm_lib\uip -I..\..\..\..\src\ampm_lib\ampm_gsm -I..\..\..\..\src\ampm_lib\common -I..\..\..\..\src\ampm_lib\PPP -I..\..\..\..\src\ampm_lib\uip-ppp-lib -I..\..\..\..\src\ampm_lib\flash_mem -I..\..\..\..\src\polarssl-1.3.8\include -I..\..\..\..\src\polarssl-1.3.8 -I..\..\..\..\src\dlt645 --diag_suppress=1,951 --c99 --bss_threshold=0-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Freescale\Kinetis-DNDEBUG -DMESH_NET_SUPPORT -DHAS_HOST_UART -DGSM_SUPPORT-o .\release\tmr.o --omf_browse .\release\tmr.crf --depend .\release\tmr.d)
+I (..\..\..\..\src\common\common.h)(0x57D35D54)
+I (..\..\..\..\src\projects\mk341ph\appconfig.h)(0x57F9D14A)
+I (..\..\..\..\src\common\headers/MKM34Z5.h)(0x57D35D54)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7D364)
+I (..\..\..\..\src\common\iohw.h)(0x57D35D54)
+I (..\..\..\..\src\common\startup.h)(0x57D35D54)
+I (..\..\..\..\src\common\arm_cm0.h)(0x57D35D54)
+I (..\..\..\..\src\common\arch_delay.h)(0x57D35D54)
+I (..\..\..\..\src\common\delay.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\tmr\tmr.h)(0x57D35D54)
+F (..\..\..\..\src\drivers\tmr\tmr.h)(0x57D35D54)()
+F (..\..\..\..\src\drivers\uart\uart.c)(0x57D35D54)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 -Otime --apcs=interwork -I..\..\..\..\src\common -I..\..\..\..\src\common\headers -I..\..\..\..\src\drivers -I..\..\..\..\src\freemaster -I..\..\..\..\src\toolchain\uv -I..\..\..\..\src\meterlib -I..\..\..\..\src\fraclib -I..\..\..\..\src\projects\mk341ph -I..\..\..\..\src\projects\mk341ph -I..\..\..\..\src\ampm_lib -I..\..\..\..\src\ampm_lib\uip -I..\..\..\..\src\ampm_lib\ampm_gsm -I..\..\..\..\src\ampm_lib\common -I..\..\..\..\src\ampm_lib\PPP -I..\..\..\..\src\ampm_lib\uip-ppp-lib -I..\..\..\..\src\ampm_lib\flash_mem -I..\..\..\..\src\polarssl-1.3.8\include -I..\..\..\..\src\polarssl-1.3.8 -I..\..\..\..\src\dlt645 --diag_suppress=1,951 --c99 --bss_threshold=0-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Freescale\Kinetis-DNDEBUG -DMESH_NET_SUPPORT -DHAS_HOST_UART -DGSM_SUPPORT-o .\release\uart.o --omf_browse .\release\uart.crf --depend .\release\uart.d)
+I (..\..\..\..\src\common\common.h)(0x57D35D54)
+I (..\..\..\..\src\projects\mk341ph\appconfig.h)(0x57F9D14A)
+I (..\..\..\..\src\common\headers/MKM34Z5.h)(0x57D35D54)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7D364)
+I (..\..\..\..\src\common\iohw.h)(0x57D35D54)
+I (..\..\..\..\src\common\startup.h)(0x57D35D54)
+I (..\..\..\..\src\common\arm_cm0.h)(0x57D35D54)
+I (..\..\..\..\src\common\arch_delay.h)(0x57D35D54)
+I (..\..\..\..\src\common\delay.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\uart\uart.h)(0x57D35D54)
+F (..\..\..\..\src\drivers\uart\uart.h)(0x57D35D54)()
+F (..\..\..\..\src\drivers\wdog\wdog.c)(0x57D35D54)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 -Otime --apcs=interwork -I..\..\..\..\src\common -I..\..\..\..\src\common\headers -I..\..\..\..\src\drivers -I..\..\..\..\src\freemaster -I..\..\..\..\src\toolchain\uv -I..\..\..\..\src\meterlib -I..\..\..\..\src\fraclib -I..\..\..\..\src\projects\mk341ph -I..\..\..\..\src\projects\mk341ph -I..\..\..\..\src\ampm_lib -I..\..\..\..\src\ampm_lib\uip -I..\..\..\..\src\ampm_lib\ampm_gsm -I..\..\..\..\src\ampm_lib\common -I..\..\..\..\src\ampm_lib\PPP -I..\..\..\..\src\ampm_lib\uip-ppp-lib -I..\..\..\..\src\ampm_lib\flash_mem -I..\..\..\..\src\polarssl-1.3.8\include -I..\..\..\..\src\polarssl-1.3.8 -I..\..\..\..\src\dlt645 --diag_suppress=1,951 --c99 --bss_threshold=0-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Freescale\Kinetis-DNDEBUG -DMESH_NET_SUPPORT -DHAS_HOST_UART -DGSM_SUPPORT-o .\release\wdog.o --omf_browse .\release\wdog.crf --depend .\release\wdog.d)
+I (..\..\..\..\src\common\common.h)(0x57D35D54)
+I (..\..\..\..\src\projects\mk341ph\appconfig.h)(0x57F9D14A)
+I (..\..\..\..\src\common\headers/MKM34Z5.h)(0x57D35D54)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7D364)
+I (..\..\..\..\src\common\iohw.h)(0x57D35D54)
+I (..\..\..\..\src\common\startup.h)(0x57D35D54)
+I (..\..\..\..\src\common\arm_cm0.h)(0x57D35D54)
+I (..\..\..\..\src\common\arch_delay.h)(0x57D35D54)
+I (..\..\..\..\src\common\delay.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\wdog\wdog.h)(0x57D35D54)
+F (..\..\..\..\src\drivers\wdog\wdog.h)(0x57D35D54)()
+F (..\..\..\..\src\drivers\vref\vref.c)(0x57D35D54)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 -Otime --apcs=interwork -I..\..\..\..\src\common -I..\..\..\..\src\common\headers -I..\..\..\..\src\drivers -I..\..\..\..\src\freemaster -I..\..\..\..\src\toolchain\uv -I..\..\..\..\src\meterlib -I..\..\..\..\src\fraclib -I..\..\..\..\src\projects\mk341ph -I..\..\..\..\src\projects\mk341ph -I..\..\..\..\src\ampm_lib -I..\..\..\..\src\ampm_lib\uip -I..\..\..\..\src\ampm_lib\ampm_gsm -I..\..\..\..\src\ampm_lib\common -I..\..\..\..\src\ampm_lib\PPP -I..\..\..\..\src\ampm_lib\uip-ppp-lib -I..\..\..\..\src\ampm_lib\flash_mem -I..\..\..\..\src\polarssl-1.3.8\include -I..\..\..\..\src\polarssl-1.3.8 -I..\..\..\..\src\dlt645 --diag_suppress=1,951 --c99 --bss_threshold=0-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Freescale\Kinetis-DNDEBUG -DMESH_NET_SUPPORT -DHAS_HOST_UART -DGSM_SUPPORT-o .\release\vref.o --omf_browse .\release\vref.crf --depend .\release\vref.d)
+I (..\..\..\..\src\common\common.h)(0x57D35D54)
+I (..\..\..\..\src\projects\mk341ph\appconfig.h)(0x57F9D14A)
+I (..\..\..\..\src\common\headers/MKM34Z5.h)(0x57D35D54)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7D364)
+I (..\..\..\..\src\common\iohw.h)(0x57D35D54)
+I (..\..\..\..\src\common\startup.h)(0x57D35D54)
+I (..\..\..\..\src\common\arm_cm0.h)(0x57D35D54)
+I (..\..\..\..\src\common\arch_delay.h)(0x57D35D54)
+I (..\..\..\..\src\common\delay.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\vref\vref.h)(0x57D35D54)
+F (..\..\..\..\src\drivers\vref\vref.h)(0x57D35D54)()
+F (..\..\..\..\src\drivers\drivers.h)(0x57D35D54)()
+F (..\..\..\..\src\drivers\xbar\xbar.c)(0x57D35D54)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 -Otime --apcs=interwork -I..\..\..\..\src\common -I..\..\..\..\src\common\headers -I..\..\..\..\src\drivers -I..\..\..\..\src\freemaster -I..\..\..\..\src\toolchain\uv -I..\..\..\..\src\meterlib -I..\..\..\..\src\fraclib -I..\..\..\..\src\projects\mk341ph -I..\..\..\..\src\projects\mk341ph -I..\..\..\..\src\ampm_lib -I..\..\..\..\src\ampm_lib\uip -I..\..\..\..\src\ampm_lib\ampm_gsm -I..\..\..\..\src\ampm_lib\common -I..\..\..\..\src\ampm_lib\PPP -I..\..\..\..\src\ampm_lib\uip-ppp-lib -I..\..\..\..\src\ampm_lib\flash_mem -I..\..\..\..\src\polarssl-1.3.8\include -I..\..\..\..\src\polarssl-1.3.8 -I..\..\..\..\src\dlt645 --diag_suppress=1,951 --c99 --bss_threshold=0-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Freescale\Kinetis-DNDEBUG -DMESH_NET_SUPPORT -DHAS_HOST_UART -DGSM_SUPPORT-o .\release\xbar.o --omf_browse .\release\xbar.crf --depend .\release\xbar.d)
+I (..\..\..\..\src\common\common.h)(0x57D35D54)
+I (..\..\..\..\src\projects\mk341ph\appconfig.h)(0x57F9D14A)
+I (..\..\..\..\src\common\headers/MKM34Z5.h)(0x57D35D54)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7D364)
+I (..\..\..\..\src\common\iohw.h)(0x57D35D54)
+I (..\..\..\..\src\common\startup.h)(0x57D35D54)
+I (..\..\..\..\src\common\arm_cm0.h)(0x57D35D54)
+I (..\..\..\..\src\common\arch_delay.h)(0x57D35D54)
+I (..\..\..\..\src\common\delay.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\xbar\xbar.h)(0x57D35D54)
+F (..\..\..\..\src\drivers\xbar\xbar.h)(0x57D35D54)()
+F (..\..\..\..\src\drivers\cmp\cmp.c)(0x57D35D54)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 -Otime --apcs=interwork -I..\..\..\..\src\common -I..\..\..\..\src\common\headers -I..\..\..\..\src\drivers -I..\..\..\..\src\freemaster -I..\..\..\..\src\toolchain\uv -I..\..\..\..\src\meterlib -I..\..\..\..\src\fraclib -I..\..\..\..\src\projects\mk341ph -I..\..\..\..\src\projects\mk341ph -I..\..\..\..\src\ampm_lib -I..\..\..\..\src\ampm_lib\uip -I..\..\..\..\src\ampm_lib\ampm_gsm -I..\..\..\..\src\ampm_lib\common -I..\..\..\..\src\ampm_lib\PPP -I..\..\..\..\src\ampm_lib\uip-ppp-lib -I..\..\..\..\src\ampm_lib\flash_mem -I..\..\..\..\src\polarssl-1.3.8\include -I..\..\..\..\src\polarssl-1.3.8 -I..\..\..\..\src\dlt645 --diag_suppress=1,951 --c99 --bss_threshold=0-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Freescale\Kinetis-DNDEBUG -DMESH_NET_SUPPORT -DHAS_HOST_UART -DGSM_SUPPORT-o .\release\cmp.o --omf_browse .\release\cmp.crf --depend .\release\cmp.d)
+I (..\..\..\..\src\common\common.h)(0x57D35D54)
+I (..\..\..\..\src\projects\mk341ph\appconfig.h)(0x57F9D14A)
+I (..\..\..\..\src\common\headers/MKM34Z5.h)(0x57D35D54)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7D364)
+I (..\..\..\..\src\common\iohw.h)(0x57D35D54)
+I (..\..\..\..\src\common\startup.h)(0x57D35D54)
+I (..\..\..\..\src\common\arm_cm0.h)(0x57D35D54)
+I (..\..\..\..\src\common\arch_delay.h)(0x57D35D54)
+I (..\..\..\..\src\common\delay.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\cmp\cmp.h)(0x57D35D54)
+F (..\..\..\..\src\meterlib\meterlib1ph.c)(0x57D35D54)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 -Otime --apcs=interwork -I..\..\..\..\src\common -I..\..\..\..\src\common\headers -I..\..\..\..\src\drivers -I..\..\..\..\src\freemaster -I..\..\..\..\src\toolchain\uv -I..\..\..\..\src\meterlib -I..\..\..\..\src\fraclib -I..\..\..\..\src\projects\mk341ph -I..\..\..\..\src\projects\mk341ph -I..\..\..\..\src\ampm_lib -I..\..\..\..\src\ampm_lib\uip -I..\..\..\..\src\ampm_lib\ampm_gsm -I..\..\..\..\src\ampm_lib\common -I..\..\..\..\src\ampm_lib\PPP -I..\..\..\..\src\ampm_lib\uip-ppp-lib -I..\..\..\..\src\ampm_lib\flash_mem -I..\..\..\..\src\polarssl-1.3.8\include -I..\..\..\..\src\polarssl-1.3.8 -I..\..\..\..\src\dlt645 --diag_suppress=1,951 --c99 --bss_threshold=0-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Freescale\Kinetis-DNDEBUG -DMESH_NET_SUPPORT -DHAS_HOST_UART -DGSM_SUPPORT-o .\release\meterlib1ph.o --omf_browse .\release\meterlib1ph.crf --depend .\release\meterlib1ph.d)
+I (..\..\..\..\src\fraclib\fraclib.h)(0x57D35D54)
+I (..\..\..\..\src\fraclib\FRACLIB_Types.h)(0x57D35D54)
+I (..\..\..\..\src\fraclib\FRACLIB_Mul32.h)(0x57D35D54)
+I (..\..\..\..\src\fraclib\FRACLIB_Inlines.h)(0x57D35D54)
+I (..\..\..\..\src\meterlib\meterlib.h)(0x57F9F8F6)
+F (..\..\..\..\src\fraclib\fraclib.c)(0x57D35D54)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 -Otime --apcs=interwork -I..\..\..\..\src\common -I..\..\..\..\src\common\headers -I..\..\..\..\src\drivers -I..\..\..\..\src\freemaster -I..\..\..\..\src\toolchain\uv -I..\..\..\..\src\meterlib -I..\..\..\..\src\fraclib -I..\..\..\..\src\projects\mk341ph -I..\..\..\..\src\projects\mk341ph -I..\..\..\..\src\ampm_lib -I..\..\..\..\src\ampm_lib\uip -I..\..\..\..\src\ampm_lib\ampm_gsm -I..\..\..\..\src\ampm_lib\common -I..\..\..\..\src\ampm_lib\PPP -I..\..\..\..\src\ampm_lib\uip-ppp-lib -I..\..\..\..\src\ampm_lib\flash_mem -I..\..\..\..\src\polarssl-1.3.8\include -I..\..\..\..\src\polarssl-1.3.8 -I..\..\..\..\src\dlt645 --diag_suppress=1,951 --c99 --bss_threshold=0-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Freescale\Kinetis-DNDEBUG -DMESH_NET_SUPPORT -DHAS_HOST_UART -DGSM_SUPPORT-o .\release\fraclib.o --omf_browse .\release\fraclib.crf --depend .\release\fraclib.d)
+I (..\..\..\..\src\fraclib\fraclib.h)(0x57D35D54)
+I (..\..\..\..\src\fraclib\FRACLIB_Types.h)(0x57D35D54)
+I (..\..\..\..\src\fraclib\FRACLIB_Mul32.h)(0x57D35D54)
+I (..\..\..\..\src\fraclib\FRACLIB_Inlines.h)(0x57D35D54)
+F (..\..\..\..\src\fraclib\fraclib.h)(0x57D35D54)()
+F (..\..\..\..\src\fraclib\FRACLIB_Inlines.h)(0x57D35D54)()
+F (..\..\..\..\src\fraclib\FRACLIB_Mul32.h)(0x57D35D54)()
+F (..\..\..\..\src\fraclib\FRACLIB_Mul32.s)(0x57D35D54)(--cpu Cortex-M0+ -g --apcs=interwork --pd "__MICROLIB SETA 1"-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Freescale\Kinetis--list .\release\fraclib_mul32.lst --xref -o .\release\fraclib_mul32.o --depend .\release\fraclib_mul32.d)
+F (..\..\..\..\src\fraclib\FRACLIB_Types.h)(0x57D35D54)()
+F (..\..\..\..\src\ampm_lib\common\comm.c)(0x57D35D54)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 -Otime --apcs=interwork -I..\..\..\..\src\common -I..\..\..\..\src\common\headers -I..\..\..\..\src\drivers -I..\..\..\..\src\freemaster -I..\..\..\..\src\toolchain\uv -I..\..\..\..\src\meterlib -I..\..\..\..\src\fraclib -I..\..\..\..\src\projects\mk341ph -I..\..\..\..\src\projects\mk341ph -I..\..\..\..\src\ampm_lib -I..\..\..\..\src\ampm_lib\uip -I..\..\..\..\src\ampm_lib\ampm_gsm -I..\..\..\..\src\ampm_lib\common -I..\..\..\..\src\ampm_lib\PPP -I..\..\..\..\src\ampm_lib\uip-ppp-lib -I..\..\..\..\src\ampm_lib\flash_mem -I..\..\..\..\src\polarssl-1.3.8\include -I..\..\..\..\src\polarssl-1.3.8 -I..\..\..\..\src\dlt645 --diag_suppress=1,951 --c99 --bss_threshold=0-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Freescale\Kinetis-DNDEBUG -DMESH_NET_SUPPORT -DHAS_HOST_UART -DGSM_SUPPORT-o .\release\comm.o --omf_browse .\release\comm.crf --depend .\release\comm.d)
+I (..\..\..\..\src\ampm_lib\common\comm.h)(0x57D35D54)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7D364)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7D364)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7D364)
+I (..\..\..\..\src\ampm_lib\lib/ringbuf.h)(0x57D35D54)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7D364)
+I (..\..\..\..\src\projects\mk341ph\main.h)(0x57FB0ADE)
+I (C:\Keil\ARM\ARMCC\include\math.h)(0x51C7D364)
+I (..\..\..\..\src\projects\mk341ph\appconfig.h)(0x57F9D14A)
+I (..\..\..\..\src\drivers\drivers.h)(0x57D35D54)
+I (..\..\..\..\src\common\common.h)(0x57D35D54)
+I (..\..\..\..\src\common\headers/MKM34Z5.h)(0x57D35D54)
+I (..\..\..\..\src\common\iohw.h)(0x57D35D54)
+I (..\..\..\..\src\common\startup.h)(0x57D35D54)
+I (..\..\..\..\src\common\arm_cm0.h)(0x57D35D54)
+I (..\..\..\..\src\common\arch_delay.h)(0x57D35D54)
+I (..\..\..\..\src\common\delay.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\sim/sim.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\fll/fll.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\ftfa/ftfa.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\pll/pll.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\vref/vref.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\gpio/gpio.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\adc/adc.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\afe/afe.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\pit/pit.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\uart/uart.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\swisr/swisr.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\crc/crc.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\lptmr/lptmr.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\llwu/llwu.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\smc/smc.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\pmc/pmc.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\rnga/rnga.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\cmp/cmp.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\i2c/i2c.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\xbar/xbar.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\tmr/tmr.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\irtc/irtc.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\wdog/wdog.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\spi/spi.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\osc/osc.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\osc32k/osc32k.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\dma/dma.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\mpu/mpu.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\aips/aips.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\rcm/rcm.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\mcm/mcm.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\syst/syst.h)(0x57D35D54)
+I (..\..\..\..\src\freemaster\freemaster.h)(0x57D35D54)
+I (..\..\..\..\src\freemaster\freemaster_defcfg.h)(0x57D35D54)
+I (..\..\..\..\src\projects\mk341ph\freemaster_cfg.h)(0x57D35D56)
+I (..\..\..\..\src\freemaster\freemaster_tsa.h)(0x57D35D54)
+I (..\..\..\..\src\fraclib\fraclib.h)(0x57D35D54)
+I (..\..\..\..\src\fraclib\FRACLIB_Types.h)(0x57D35D54)
+I (..\..\..\..\src\fraclib\FRACLIB_Mul32.h)(0x57D35D54)
+I (..\..\..\..\src\fraclib\FRACLIB_Inlines.h)(0x57D35D54)
+I (..\..\..\..\src\meterlib\meterlib.h)(0x57F9F8F6)
+I (..\..\..\..\src\projects\mk341ph\system_config.h)(0x593FAF46)
+I (..\..\..\..\src\projects\mk341ph\smarthome_meter.h)(0x57FB1A46)
+I (..\..\..\..\src\projects\mk341ph\smarthome_cfg.h)(0x57FB3D52)
+I (..\..\..\..\src\projects\mk341ph\i2ceeprom.h)(0x57D561D8)
+I (..\..\..\..\src\ampm_lib\lib/data_cmp.h)(0x57D35D54)
+I (..\..\..\..\src\ampm_lib\lib/ampm_sprintf.h)(0x57D35D54)
+I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7D364)
+I (..\..\..\..\src\ampm_lib\lib/protocol.h)(0x57D35D54)
+I (..\..\..\..\src\ampm_lib\lib/fcs.h)(0x57D35D54)
+I (..\..\..\..\src\projects\mk341ph\app_config_task.h)(0x57FB4544)
+I (..\..\..\..\src\ampm_lib\lib/sys_tick.h)(0x57D35D54)
+I (..\..\..\..\src\projects\mk341ph\proto_parser.h)(0x57D35D56)
+I (..\..\..\..\src\projects\mk341ph\app_rtc.h)(0x57D35D56)
+I (..\..\..\..\src\projects\mk341ph\auto_calib.h)(0x57FB51DC)
+F (..\..\..\..\src\ampm_lib\lib\ampm_sprintf.c)(0x57D35D54)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 -Otime --apcs=interwork -I..\..\..\..\src\common -I..\..\..\..\src\common\headers -I..\..\..\..\src\drivers -I..\..\..\..\src\freemaster -I..\..\..\..\src\toolchain\uv -I..\..\..\..\src\meterlib -I..\..\..\..\src\fraclib -I..\..\..\..\src\projects\mk341ph -I..\..\..\..\src\projects\mk341ph -I..\..\..\..\src\ampm_lib -I..\..\..\..\src\ampm_lib\uip -I..\..\..\..\src\ampm_lib\ampm_gsm -I..\..\..\..\src\ampm_lib\common -I..\..\..\..\src\ampm_lib\PPP -I..\..\..\..\src\ampm_lib\uip-ppp-lib -I..\..\..\..\src\ampm_lib\flash_mem -I..\..\..\..\src\polarssl-1.3.8\include -I..\..\..\..\src\polarssl-1.3.8 -I..\..\..\..\src\dlt645 --diag_suppress=1,951 --c99 --bss_threshold=0-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Freescale\Kinetis-DNDEBUG -DMESH_NET_SUPPORT -DHAS_HOST_UART -DGSM_SUPPORT-o .\release\ampm_sprintf.o --omf_browse .\release\ampm_sprintf.crf --depend .\release\ampm_sprintf.d)
+I (..\..\..\..\src\ampm_lib\lib/ampm_sprintf.h)(0x57D35D54)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7D364)
+I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7D364)
+F (..\..\..\..\src\ampm_lib\lib\data_cmp.c)(0x57D35D54)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 -Otime --apcs=interwork -I..\..\..\..\src\common -I..\..\..\..\src\common\headers -I..\..\..\..\src\drivers -I..\..\..\..\src\freemaster -I..\..\..\..\src\toolchain\uv -I..\..\..\..\src\meterlib -I..\..\..\..\src\fraclib -I..\..\..\..\src\projects\mk341ph -I..\..\..\..\src\projects\mk341ph -I..\..\..\..\src\ampm_lib -I..\..\..\..\src\ampm_lib\uip -I..\..\..\..\src\ampm_lib\ampm_gsm -I..\..\..\..\src\ampm_lib\common -I..\..\..\..\src\ampm_lib\PPP -I..\..\..\..\src\ampm_lib\uip-ppp-lib -I..\..\..\..\src\ampm_lib\flash_mem -I..\..\..\..\src\polarssl-1.3.8\include -I..\..\..\..\src\polarssl-1.3.8 -I..\..\..\..\src\dlt645 --diag_suppress=1,951 --c99 --bss_threshold=0-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Freescale\Kinetis-DNDEBUG -DMESH_NET_SUPPORT -DHAS_HOST_UART -DGSM_SUPPORT-o .\release\data_cmp.o --omf_browse .\release\data_cmp.crf --depend .\release\data_cmp.d)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7D364)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7D364)
+I (..\..\..\..\src\ampm_lib\lib\data_cmp.h)(0x57D35D54)
+F (..\..\..\..\src\ampm_lib\lib\encoding.c)(0x57D35D54)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 -Otime --apcs=interwork -I..\..\..\..\src\common -I..\..\..\..\src\common\headers -I..\..\..\..\src\drivers -I..\..\..\..\src\freemaster -I..\..\..\..\src\toolchain\uv -I..\..\..\..\src\meterlib -I..\..\..\..\src\fraclib -I..\..\..\..\src\projects\mk341ph -I..\..\..\..\src\projects\mk341ph -I..\..\..\..\src\ampm_lib -I..\..\..\..\src\ampm_lib\uip -I..\..\..\..\src\ampm_lib\ampm_gsm -I..\..\..\..\src\ampm_lib\common -I..\..\..\..\src\ampm_lib\PPP -I..\..\..\..\src\ampm_lib\uip-ppp-lib -I..\..\..\..\src\ampm_lib\flash_mem -I..\..\..\..\src\polarssl-1.3.8\include -I..\..\..\..\src\polarssl-1.3.8 -I..\..\..\..\src\dlt645 --diag_suppress=1,951 --c99 --bss_threshold=0-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Freescale\Kinetis-DNDEBUG -DMESH_NET_SUPPORT -DHAS_HOST_UART -DGSM_SUPPORT-o .\release\encoding.o --omf_browse .\release\encoding.crf --depend .\release\encoding.d)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7D364)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7D364)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7D364)
+I (..\..\..\..\src\ampm_lib\lib/encoding.h)(0x57D35D54)
+F (..\..\..\..\src\ampm_lib\lib\fcs.c)(0x57D35D54)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 -Otime --apcs=interwork -I..\..\..\..\src\common -I..\..\..\..\src\common\headers -I..\..\..\..\src\drivers -I..\..\..\..\src\freemaster -I..\..\..\..\src\toolchain\uv -I..\..\..\..\src\meterlib -I..\..\..\..\src\fraclib -I..\..\..\..\src\projects\mk341ph -I..\..\..\..\src\projects\mk341ph -I..\..\..\..\src\ampm_lib -I..\..\..\..\src\ampm_lib\uip -I..\..\..\..\src\ampm_lib\ampm_gsm -I..\..\..\..\src\ampm_lib\common -I..\..\..\..\src\ampm_lib\PPP -I..\..\..\..\src\ampm_lib\uip-ppp-lib -I..\..\..\..\src\ampm_lib\flash_mem -I..\..\..\..\src\polarssl-1.3.8\include -I..\..\..\..\src\polarssl-1.3.8 -I..\..\..\..\src\dlt645 --diag_suppress=1,951 --c99 --bss_threshold=0-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Freescale\Kinetis-DNDEBUG -DMESH_NET_SUPPORT -DHAS_HOST_UART -DGSM_SUPPORT-o .\release\fcs.o --omf_browse .\release\fcs.crf --depend .\release\fcs.d)
+I (..\..\..\..\src\ampm_lib\lib\fcs.h)(0x57D35D54)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7D364)
+F (..\..\..\..\src\ampm_lib\lib\list.c)(0x57D35D54)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 -Otime --apcs=interwork -I..\..\..\..\src\common -I..\..\..\..\src\common\headers -I..\..\..\..\src\drivers -I..\..\..\..\src\freemaster -I..\..\..\..\src\toolchain\uv -I..\..\..\..\src\meterlib -I..\..\..\..\src\fraclib -I..\..\..\..\src\projects\mk341ph -I..\..\..\..\src\projects\mk341ph -I..\..\..\..\src\ampm_lib -I..\..\..\..\src\ampm_lib\uip -I..\..\..\..\src\ampm_lib\ampm_gsm -I..\..\..\..\src\ampm_lib\common -I..\..\..\..\src\ampm_lib\PPP -I..\..\..\..\src\ampm_lib\uip-ppp-lib -I..\..\..\..\src\ampm_lib\flash_mem -I..\..\..\..\src\polarssl-1.3.8\include -I..\..\..\..\src\polarssl-1.3.8 -I..\..\..\..\src\dlt645 --diag_suppress=1,951 --c99 --bss_threshold=0-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Freescale\Kinetis-DNDEBUG -DMESH_NET_SUPPORT -DHAS_HOST_UART -DGSM_SUPPORT-o .\release\list.o --omf_browse .\release\list.crf --depend .\release\list.d)
+I (..\..\..\..\src\ampm_lib\lib/list.h)(0x57D35D54)
+F (..\..\..\..\src\ampm_lib\lib\m_time.c)(0x57D35D54)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 -Otime --apcs=interwork -I..\..\..\..\src\common -I..\..\..\..\src\common\headers -I..\..\..\..\src\drivers -I..\..\..\..\src\freemaster -I..\..\..\..\src\toolchain\uv -I..\..\..\..\src\meterlib -I..\..\..\..\src\fraclib -I..\..\..\..\src\projects\mk341ph -I..\..\..\..\src\projects\mk341ph -I..\..\..\..\src\ampm_lib -I..\..\..\..\src\ampm_lib\uip -I..\..\..\..\src\ampm_lib\ampm_gsm -I..\..\..\..\src\ampm_lib\common -I..\..\..\..\src\ampm_lib\PPP -I..\..\..\..\src\ampm_lib\uip-ppp-lib -I..\..\..\..\src\ampm_lib\flash_mem -I..\..\..\..\src\polarssl-1.3.8\include -I..\..\..\..\src\polarssl-1.3.8 -I..\..\..\..\src\dlt645 --diag_suppress=1,951 --c99 --bss_threshold=0-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Freescale\Kinetis-DNDEBUG -DMESH_NET_SUPPORT -DHAS_HOST_UART -DGSM_SUPPORT-o .\release\m_time.o --omf_browse .\release\m_time.crf --depend .\release\m_time.d)
+I (C:\Keil\ARM\ARMCC\include\time.h)(0x51C7D364)
+F (..\..\..\..\src\ampm_lib\lib\packet_queue.c)(0x57D35D54)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 -Otime --apcs=interwork -I..\..\..\..\src\common -I..\..\..\..\src\common\headers -I..\..\..\..\src\drivers -I..\..\..\..\src\freemaster -I..\..\..\..\src\toolchain\uv -I..\..\..\..\src\meterlib -I..\..\..\..\src\fraclib -I..\..\..\..\src\projects\mk341ph -I..\..\..\..\src\projects\mk341ph -I..\..\..\..\src\ampm_lib -I..\..\..\..\src\ampm_lib\uip -I..\..\..\..\src\ampm_lib\ampm_gsm -I..\..\..\..\src\ampm_lib\common -I..\..\..\..\src\ampm_lib\PPP -I..\..\..\..\src\ampm_lib\uip-ppp-lib -I..\..\..\..\src\ampm_lib\flash_mem -I..\..\..\..\src\polarssl-1.3.8\include -I..\..\..\..\src\polarssl-1.3.8 -I..\..\..\..\src\dlt645 --diag_suppress=1,951 --c99 --bss_threshold=0-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Freescale\Kinetis-DNDEBUG -DMESH_NET_SUPPORT -DHAS_HOST_UART -DGSM_SUPPORT-o .\release\packet_queue.o --omf_browse .\release\packet_queue.crf --depend .\release\packet_queue.d)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7D364)
+I (..\..\..\..\src\ampm_lib\lib\packet_queue.h)(0x57D35D54)
+I (..\..\..\..\src\ampm_lib\lib\ringbuf.h)(0x57D35D54)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7D364)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7D364)
+F (..\..\..\..\src\ampm_lib\lib\protocol.c)(0x57D35D54)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 -Otime --apcs=interwork -I..\..\..\..\src\common -I..\..\..\..\src\common\headers -I..\..\..\..\src\drivers -I..\..\..\..\src\freemaster -I..\..\..\..\src\toolchain\uv -I..\..\..\..\src\meterlib -I..\..\..\..\src\fraclib -I..\..\..\..\src\projects\mk341ph -I..\..\..\..\src\projects\mk341ph -I..\..\..\..\src\ampm_lib -I..\..\..\..\src\ampm_lib\uip -I..\..\..\..\src\ampm_lib\ampm_gsm -I..\..\..\..\src\ampm_lib\common -I..\..\..\..\src\ampm_lib\PPP -I..\..\..\..\src\ampm_lib\uip-ppp-lib -I..\..\..\..\src\ampm_lib\flash_mem -I..\..\..\..\src\polarssl-1.3.8\include -I..\..\..\..\src\polarssl-1.3.8 -I..\..\..\..\src\dlt645 --diag_suppress=1,951 --c99 --bss_threshold=0-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Freescale\Kinetis-DNDEBUG -DMESH_NET_SUPPORT -DHAS_HOST_UART -DGSM_SUPPORT-o .\release\protocol.o --omf_browse .\release\protocol.crf --depend .\release\protocol.d)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7D364)
+I (..\..\..\..\src\ampm_lib\lib\fcs.h)(0x57D35D54)
+I (..\..\..\..\src\ampm_lib\lib/protocol.h)(0x57D35D54)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7D364)
+F (..\..\..\..\src\ampm_lib\lib\ringbuf.c)(0x57D35D54)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 -Otime --apcs=interwork -I..\..\..\..\src\common -I..\..\..\..\src\common\headers -I..\..\..\..\src\drivers -I..\..\..\..\src\freemaster -I..\..\..\..\src\toolchain\uv -I..\..\..\..\src\meterlib -I..\..\..\..\src\fraclib -I..\..\..\..\src\projects\mk341ph -I..\..\..\..\src\projects\mk341ph -I..\..\..\..\src\ampm_lib -I..\..\..\..\src\ampm_lib\uip -I..\..\..\..\src\ampm_lib\ampm_gsm -I..\..\..\..\src\ampm_lib\common -I..\..\..\..\src\ampm_lib\PPP -I..\..\..\..\src\ampm_lib\uip-ppp-lib -I..\..\..\..\src\ampm_lib\flash_mem -I..\..\..\..\src\polarssl-1.3.8\include -I..\..\..\..\src\polarssl-1.3.8 -I..\..\..\..\src\dlt645 --diag_suppress=1,951 --c99 --bss_threshold=0-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Freescale\Kinetis-DNDEBUG -DMESH_NET_SUPPORT -DHAS_HOST_UART -DGSM_SUPPORT-o .\release\ringbuf.o --omf_browse .\release\ringbuf.crf --depend .\release\ringbuf.d)
+I (..\..\..\..\src\ampm_lib\lib/ringbuf.h)(0x57D35D54)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7D364)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7D364)
+F (..\..\..\..\src\ampm_lib\lib\sparser.c)(0x57D35D54)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 -Otime --apcs=interwork -I..\..\..\..\src\common -I..\..\..\..\src\common\headers -I..\..\..\..\src\drivers -I..\..\..\..\src\freemaster -I..\..\..\..\src\toolchain\uv -I..\..\..\..\src\meterlib -I..\..\..\..\src\fraclib -I..\..\..\..\src\projects\mk341ph -I..\..\..\..\src\projects\mk341ph -I..\..\..\..\src\ampm_lib -I..\..\..\..\src\ampm_lib\uip -I..\..\..\..\src\ampm_lib\ampm_gsm -I..\..\..\..\src\ampm_lib\common -I..\..\..\..\src\ampm_lib\PPP -I..\..\..\..\src\ampm_lib\uip-ppp-lib -I..\..\..\..\src\ampm_lib\flash_mem -I..\..\..\..\src\polarssl-1.3.8\include -I..\..\..\..\src\polarssl-1.3.8 -I..\..\..\..\src\dlt645 --diag_suppress=1,951 --c99 --bss_threshold=0-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Freescale\Kinetis-DNDEBUG -DMESH_NET_SUPPORT -DHAS_HOST_UART -DGSM_SUPPORT-o .\release\sparser.o --omf_browse .\release\sparser.crf --depend .\release\sparser.d)
+I (..\..\..\..\src\ampm_lib\lib/sparser.h)(0x57D35D54)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7D364)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7D364)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7D364)
+I (..\..\..\..\src\ampm_lib\lib/list.h)(0x57D35D54)
+I (..\..\..\..\src\ampm_lib\lib/sys_tick.h)(0x57D35D54)
+F (..\..\..\..\src\ampm_lib\lib\sys_tick.c)(0x57D35D54)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 -Otime --apcs=interwork -I..\..\..\..\src\common -I..\..\..\..\src\common\headers -I..\..\..\..\src\drivers -I..\..\..\..\src\freemaster -I..\..\..\..\src\toolchain\uv -I..\..\..\..\src\meterlib -I..\..\..\..\src\fraclib -I..\..\..\..\src\projects\mk341ph -I..\..\..\..\src\projects\mk341ph -I..\..\..\..\src\ampm_lib -I..\..\..\..\src\ampm_lib\uip -I..\..\..\..\src\ampm_lib\ampm_gsm -I..\..\..\..\src\ampm_lib\common -I..\..\..\..\src\ampm_lib\PPP -I..\..\..\..\src\ampm_lib\uip-ppp-lib -I..\..\..\..\src\ampm_lib\flash_mem -I..\..\..\..\src\polarssl-1.3.8\include -I..\..\..\..\src\polarssl-1.3.8 -I..\..\..\..\src\dlt645 --diag_suppress=1,951 --c99 --bss_threshold=0-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Freescale\Kinetis-DNDEBUG -DMESH_NET_SUPPORT -DHAS_HOST_UART -DGSM_SUPPORT-o .\release\sys_tick.o --omf_browse .\release\sys_tick.crf --depend .\release\sys_tick.d)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7D364)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7D364)
+I (..\..\..\..\src\ampm_lib\lib\sys_tick.h)(0x57D35D54)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7D364)
+F (..\..\..\..\src\ampm_lib\lib\sys_time.c)(0x57D35D54)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 -Otime --apcs=interwork -I..\..\..\..\src\common -I..\..\..\..\src\common\headers -I..\..\..\..\src\drivers -I..\..\..\..\src\freemaster -I..\..\..\..\src\toolchain\uv -I..\..\..\..\src\meterlib -I..\..\..\..\src\fraclib -I..\..\..\..\src\projects\mk341ph -I..\..\..\..\src\projects\mk341ph -I..\..\..\..\src\ampm_lib -I..\..\..\..\src\ampm_lib\uip -I..\..\..\..\src\ampm_lib\ampm_gsm -I..\..\..\..\src\ampm_lib\common -I..\..\..\..\src\ampm_lib\PPP -I..\..\..\..\src\ampm_lib\uip-ppp-lib -I..\..\..\..\src\ampm_lib\flash_mem -I..\..\..\..\src\polarssl-1.3.8\include -I..\..\..\..\src\polarssl-1.3.8 -I..\..\..\..\src\dlt645 --diag_suppress=1,951 --c99 --bss_threshold=0-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Freescale\Kinetis-DNDEBUG -DMESH_NET_SUPPORT -DHAS_HOST_UART -DGSM_SUPPORT-o .\release\sys_time.o --omf_browse .\release\sys_time.crf --depend .\release\sys_time.d)
+I (..\..\..\..\src\ampm_lib\lib\sys_time.h)(0x57D35D54)
+I (C:\Keil\ARM\ARMCC\include\time.h)(0x51C7D364)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7D364)
+I (..\..\..\..\src\ampm_lib\gps/gps.h)(0x57D35D54)
+I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7D364)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7D364)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7D364)
+I (C:\Keil\ARM\ARMCC\include\ctype.h)(0x51C7D364)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7D364)
+I (C:\Keil\ARM\ARMCC\include\limits.h)(0x51C7D364)
+I (C:\Keil\ARM\ARMCC\include\math.h)(0x51C7D364)
+I (..\..\..\..\src\ampm_lib\lib\m_time.h)(0x57D35D54)
+F (..\..\..\..\src\ampm_lib\lib\tick.c)(0x57D35D54)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 -Otime --apcs=interwork -I..\..\..\..\src\common -I..\..\..\..\src\common\headers -I..\..\..\..\src\drivers -I..\..\..\..\src\freemaster -I..\..\..\..\src\toolchain\uv -I..\..\..\..\src\meterlib -I..\..\..\..\src\fraclib -I..\..\..\..\src\projects\mk341ph -I..\..\..\..\src\projects\mk341ph -I..\..\..\..\src\ampm_lib -I..\..\..\..\src\ampm_lib\uip -I..\..\..\..\src\ampm_lib\ampm_gsm -I..\..\..\..\src\ampm_lib\common -I..\..\..\..\src\ampm_lib\PPP -I..\..\..\..\src\ampm_lib\uip-ppp-lib -I..\..\..\..\src\ampm_lib\flash_mem -I..\..\..\..\src\polarssl-1.3.8\include -I..\..\..\..\src\polarssl-1.3.8 -I..\..\..\..\src\dlt645 --diag_suppress=1,951 --c99 --bss_threshold=0-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Freescale\Kinetis-DNDEBUG -DMESH_NET_SUPPORT -DHAS_HOST_UART -DGSM_SUPPORT-o .\release\tick.o --omf_browse .\release\tick.crf --depend .\release\tick.d)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7D364)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7D364)
+I (..\..\..\..\src\ampm_lib\lib/sys_tick.h)(0x57D35D54)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7D364)
+I (..\..\..\..\src\ampm_lib\lib\tick.h)(0x57D35D54)
+F (..\..\..\..\src\projects\mk341ph\i2ceeprom.c)(0x57D561D8)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 -Otime --apcs=interwork -I..\..\..\..\src\common -I..\..\..\..\src\common\headers -I..\..\..\..\src\drivers -I..\..\..\..\src\freemaster -I..\..\..\..\src\toolchain\uv -I..\..\..\..\src\meterlib -I..\..\..\..\src\fraclib -I..\..\..\..\src\projects\mk341ph -I..\..\..\..\src\projects\mk341ph -I..\..\..\..\src\ampm_lib -I..\..\..\..\src\ampm_lib\uip -I..\..\..\..\src\ampm_lib\ampm_gsm -I..\..\..\..\src\ampm_lib\common -I..\..\..\..\src\ampm_lib\PPP -I..\..\..\..\src\ampm_lib\uip-ppp-lib -I..\..\..\..\src\ampm_lib\flash_mem -I..\..\..\..\src\polarssl-1.3.8\include -I..\..\..\..\src\polarssl-1.3.8 -I..\..\..\..\src\dlt645 --diag_suppress=1,951 --c99 --bss_threshold=0-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Freescale\Kinetis-DNDEBUG -DMESH_NET_SUPPORT -DHAS_HOST_UART -DGSM_SUPPORT-o .\release\i2ceeprom.o --omf_browse .\release\i2ceeprom.crf --depend .\release\i2ceeprom.d)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7D364)
+I (..\..\..\..\src\projects\mk341ph\i2ceeprom.h)(0x57D561D8)
+I (..\..\..\..\src\drivers\drivers.h)(0x57D35D54)
+I (..\..\..\..\src\common\common.h)(0x57D35D54)
+I (..\..\..\..\src\projects\mk341ph\appconfig.h)(0x57F9D14A)
+I (..\..\..\..\src\common\headers/MKM34Z5.h)(0x57D35D54)
+I (..\..\..\..\src\common\iohw.h)(0x57D35D54)
+I (..\..\..\..\src\common\startup.h)(0x57D35D54)
+I (..\..\..\..\src\common\arm_cm0.h)(0x57D35D54)
+I (..\..\..\..\src\common\arch_delay.h)(0x57D35D54)
+I (..\..\..\..\src\common\delay.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\sim/sim.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\fll/fll.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\ftfa/ftfa.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\pll/pll.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\vref/vref.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\gpio/gpio.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\adc/adc.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\afe/afe.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\pit/pit.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\uart/uart.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\swisr/swisr.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\crc/crc.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\lptmr/lptmr.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\llwu/llwu.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\smc/smc.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\pmc/pmc.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\rnga/rnga.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\cmp/cmp.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\i2c/i2c.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\xbar/xbar.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\tmr/tmr.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\irtc/irtc.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\wdog/wdog.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\spi/spi.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\osc/osc.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\osc32k/osc32k.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\dma/dma.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\mpu/mpu.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\aips/aips.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\rcm/rcm.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\mcm/mcm.h)(0x57D35D54)
+I (..\..\..\..\src\drivers\syst/syst.h)(0x57D35D54)
+I (..\..\..\..\src\freemaster\freemaster.h)(0x57D35D54)
+I (..\..\..\..\src\freemaster\freemaster_defcfg.h)(0x57D35D54)
+I (..\..\..\..\src\projects\mk341ph\freemaster_cfg.h)(0x57D35D56)
+I (..\..\..\..\src\freemaster\freemaster_tsa.h)(0x57D35D54)

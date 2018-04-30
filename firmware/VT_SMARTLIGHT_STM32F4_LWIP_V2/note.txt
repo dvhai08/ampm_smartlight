@@ -1,0 +1,3 @@
++Chú ý khi xuất file từ STM CUBE cần lưu ý chỉnh lại cái điểm sau:
+1. File stm32f407xx.h 
+	#define FLASH_BASE            0x0800C000U

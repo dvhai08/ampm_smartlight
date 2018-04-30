@@ -1,0 +1,53 @@
+#! armcc -E
+/**********************************************************************************
+ *
+ *  File        : MKMxxZ128_flash.scf
+ *
+ *  Default linker scatter file for flash target
+ *
+ **********************************************************************************/
+/* Memory Regions                                                                 */
+#define ROM_START     0x00000000  /* ROM start address                            */
+#define ROM_SIZE      0x00020000  /* ROM size 128KB                               */
+#define RAM_START     0x1ffff000  /* RAM start address                            */
+#define RAM_SIZE      0x00004000  /* RAM size 16KB                                */
+
+/* Special                                                                        */
+#define STACK_SIZE    0x00000200  /* Stack size - start address set to 0x20002ff8 */
+#define HEAP_SIZE     0x00000200  /* Heap size - placed after relocatable code    */
+
+/* ROM load region                                                                */
+LR_ROM ROM_START ROM_SIZE
+{   
+  ER_ROM ROM_START
+  {
+    *(.ARM.__at_0x000)            /* place interrupt vectors                      */
+    .ANY(+RO)                     /* place any code and read-only data            */
+    *(.ARM.__at_0x400)            /* place flash configuration field              */
+    *(+RO)                        /* place rest of the code and read-only data    */
+  }
+  
+  ER_RAM_MTBRAM RAM_START UNINIT
+  { *(.ARM.__at_0x1ffff000) }     /* place MTB buffer (configured in appconfig.h) */
+  
+  ER_RAM_DATA +0 NOCOMPRESS
+  { *(+RW-DATA)             }     /* place initialized data                       */
+  
+  ER_RAM_BSS +0 UNINIT
+  { *(+ZI)                  }     /* place zero-initialized data                  */
+  
+  ER_RAM_NOINIT +0 UNINIT
+  { *(.noinit)              }     /* place non-initialized data                   */
+  
+  ER_RAM_FAST +0 NOCOMPRESS
+  { *(.fast)                }     /* place relocatable code                       */
+  
+  ARM_LIB_HEAP +0 EMPTY HEAP_SIZE 
+  {}                              /* Heap region growing up                       */
+  
+  ARM_LIB_STACK (RAM_START+RAM_SIZE) EMPTY -STACK_SIZE 
+  {}                              /* Stack region growing down                    */
+  
+  ER_IRTC_RAM_FILE 0x40051000 UNINIT 0x20
+  { *(.RtcRamSection)       }     /* Place battery backed-up 32-bytes of ram      */
+}

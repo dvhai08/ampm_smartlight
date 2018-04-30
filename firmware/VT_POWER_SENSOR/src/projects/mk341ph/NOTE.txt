@@ -1,0 +1,2 @@
+WDOG:
+WDOG sử dụng LPO cần phải cách vài chu kì trước khi reset lần tiếp theo (2-3ms).

@@ -1,0 +1,10 @@
+E:\working\VTSMART\smartlight_config\bin\x64\Debug\VIETTEL_SMARTLIGHT.exe
+E:\working\VTSMART\smartlight_config\bin\x64\Debug\VIETTEL_SMARTLIGHT.pdb
+E:\working\VTSMART\smartlight_config\bin\x64\Debug\log4net.dll
+E:\working\VTSMART\smartlight_config\obj\x64\Debug\PJ1000TrackerConfiguration.MainForm.resources
+E:\working\VTSMART\smartlight_config\obj\x64\Debug\VIETTEL_SMARTLIGHT.Properties.Resources.resources
+E:\working\VTSMART\smartlight_config\obj\x64\Debug\PJ1000TrackerConfiguration.RegisterForm.resources
+E:\working\VTSMART\smartlight_config\obj\x64\Debug\VIETTEL_SMARTLIGHT.csproj.GenerateResource.Cache
+E:\working\VTSMART\smartlight_config\obj\x64\Debug\VIETTEL_SMARTLIGHT.csproj.CoreCompileInputs.cache
+E:\working\VTSMART\smartlight_config\obj\x64\Debug\VIETTEL_SMARTLIGHT.exe
+E:\working\VTSMART\smartlight_config\obj\x64\Debug\VIETTEL_SMARTLIGHT.pdb
