@@ -13,7 +13,7 @@
 #include "uart4.h"
 #include "system_config.h"
 #include "elster_tasks.h"
-#define ELSTER_DBG(x)	printf(x)
+#define ELSTER_DBG(x)	//printf(x)
 //extern RINGBUF App_TxRingBuf;
 //extern RINGBUF UART_RxRingBuf;
 //extern uint8_t ELSTER_Puts(const char *s);

@@ -118,7 +118,7 @@
         <SetRegEntry>
           <Number>0</Number>
           <Key>DLGUARM</Key>
-          <Name>ÜÆ,w</Name>
+          <Name>ÜÆ$w</Name>
         </SetRegEntry>
         <SetRegEntry>
           <Number>0</Number>
@@ -202,6 +202,21 @@
           <count>9</count>
           <WinNumber>1</WinNumber>
           <ItemText>lwip_stats,0x0A</ItemText>
+        </Ww>
+        <Ww>
+          <count>10</count>
+          <WinNumber>1</WinNumber>
+          <ItemText>deviceCfg</ItemText>
+        </Ww>
+        <Ww>
+          <count>11</count>
+          <WinNumber>1</WinNumber>
+          <ItemText>(uint32_t)deviceCfg.highVoltageLevel</ItemText>
+        </Ww>
+        <Ww>
+          <count>12</count>
+          <WinNumber>1</WinNumber>
+          <ItemText>sendParamFlag</ItemText>
         </Ww>
       </WatchWindow1>
       <WatchWindow2>
@@ -435,7 +450,7 @@
         <Mm>
           <WinNumber>1</WinNumber>
           <SubType>8</SubType>
-          <ItemText>pt</ItemText>
+          <ItemText>pScheduleJson</ItemText>
           <AccSizeX>0</AccSizeX>
         </Mm>
       </MemoryWindow1>
@@ -447,6 +462,14 @@
           <AccSizeX>0</AccSizeX>
         </Mm>
       </MemoryWindow2>
+      <MemoryWindow3>
+        <Mm>
+          <WinNumber>3</WinNumber>
+          <SubType>0</SubType>
+          <ItemText>&amp;deviceCfg.highVoltageLevel</ItemText>
+          <AccSizeX>0</AccSizeX>
+        </Mm>
+      </MemoryWindow3>
       <Tracepoint>
         <THDelay>0</THDelay>
       </Tracepoint>
@@ -506,7 +529,7 @@
 
   <Group>
     <GroupName>Middlewares/FreeRTOS</GroupName>
-    <tvExp>1</tvExp>
+    <tvExp>0</tvExp>
     <tvExpOptDlg>0</tvExpOptDlg>
     <cbSel>0</cbSel>
     <RteFlg>0</RteFlg>

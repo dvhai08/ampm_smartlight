@@ -496,6 +496,13 @@ uint8_t CfgProcessData(CFG_PROTOCOL_TYPE *cfgProtoRecv,CFG_PROTOCOL_TYPE *cfgPro
 					//strcpy((char *)sysCfg.id ,(char *)buf);
 					CFG_Save();
 					CFG_Load();
+					memset((void*)&deviceCfg, 0xFF, sizeof(DEVICE_SETTING_TYPE));
+					DeviceCfg_Save();
+					DeviceCfg_Load();
+					
+					memset((void*)&deviceIoStatus, 0xFF, sizeof(DEVICE_IO_STATUS_TYPE));
+					DeviceIoStatus_Save();
+					DeviceIoStatus_Load();
 					ResetMcuSet(MCU_RESET_IMMEDIATELY);
 				}
 			break;

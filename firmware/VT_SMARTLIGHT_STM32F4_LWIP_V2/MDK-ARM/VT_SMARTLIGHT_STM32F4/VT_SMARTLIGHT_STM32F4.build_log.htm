@@ -1,0 +1,340 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.23.0.0
+Copyright (C) 2017 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: thienhai blue, vtsmart, LIC=LSNGK-Z3FTP-Z7TRU-SGA1U-22WW6-2BLQJ
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.23
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 4 (build 422)
+Assembler:       Armasm.exe V5.06 update 4 (build 422)
+Linker/Locator:  ArmLink.exe V5.06 update 4 (build 422)
+Library Manager: ArmAr.exe V5.06 update 4 (build 422)
+Hex Converter:   FromElf.exe V5.06 update 4 (build 422)
+CPU DLL:         SARMCM3.DLL V5.23
+Dialog DLL:      DCM.DLL V1.15.0.0
+Target DLL:      Segger\JL2CM3.dll V2.99.23.0
+Dialog DLL:      TCM.DLL V1.27.0.0
+ 
+<h2>Project:</h2>
+E:\working\VTSMART\GIT\ampm_smartlight\firmware\VT_SMARTLIGHT_STM32F4_LWIP_V2\MDK-ARM\VT_SMARTLIGHT_STM32F4.uvprojx
+Project File Date:  05/11/2018
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 4 (build 422)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'VT_SMARTLIGHT_STM32F4'
+compiling watchdog.c...
+..\Src\watchdog.c(79): warning:  #177-D: function "vWatchdog_Task"  was declared but never referenced
+  static void vWatchdog_Task(void const *param)
+..\Src\watchdog.c: 1 warning, 0 errors
+compiling system_config.c...
+..\Src\system_config.c(580): warning:  #550-D: variable "FlashStatus"  was set but never used
+  	uint16_t  FlashStatus;
+..\Src\system_config.c(581): warning:  #177-D: variable "pageError"  was declared but never referenced
+  	uint32_t pageError = 0;
+..\Src\system_config.c(688): warning:  #177-D: function "GetSectorSize"  was declared but never referenced
+  static uint32_t GetSectorSize(uint32_t Sector)
+..\Src\system_config.c: 3 warnings, 0 errors
+compiling ntp_server.c...
+..\Src\ntp_server.c(175): warning:  #111-D: statement is unreachable
+  		osThreadTerminate(thread_id);
+..\Src\ntp_server.c(66): warning:  #177-D: variable "sin_size"  was declared but never referenced
+  	int sin_size;
+..\Src\ntp_server.c(67): warning:  #177-D: variable "str_len"  was declared but never referenced
+  	int str_len;
+..\Src\ntp_server.c(68): warning:  #177-D: variable "cnt"  was declared but never referenced
+  	uint32_t cnt = 0;
+..\Src\ntp_server.c(70): warning:  #177-D: variable "interval"  was declared but never referenced
+  	uint32_t interval = 20;
+..\Src\ntp_server.c(73): warning:  #177-D: variable "remote_ip"  was declared but never referenced
+  	struct sockaddr_in remote_ip;
+..\Src\ntp_server.c: 6 warnings, 0 errors
+compiling smartlight.c...
+compiling main.c...
+../Inc/smartlight.h(7): warning:  #1-D: last line of file ends without a newline
+  #endif
+../Src/main.c: 1 warning, 0 errors
+compiling ota_server.c...
+..\Src\ota_server.c(361): warning:  #177-D: variable "status"  was declared but never referenced
+  							uint32_t status = 0xA5A5A5A5;
+..\Src\ota_server.c: 1 warning, 0 errors
+compiling shadow_thing.c...
+..\Src\shadow_thing.c(237): warning:  #188-D: enumerated type mixed with another type
+  		rc = shadow_thing_init(&mqttClient);
+..\Src\shadow_thing.c(917): warning:  #111-D: statement is unreachable
+  	vTaskDelete(NULL);
+..\Src\shadow_thing.c: 2 warnings, 0 errors
+compiling led.c...
+compiling uart_config_task.c...
+compiling elster_tasks.c...
+..\Src\meters\elster_tasks.c(182): warning:  #3170-D: use of a const variable in a constant expression is nonstandard in C
+  const ELSTER_WRITE_CMD_TYPE elsteWriterCmd0 = {"P2","(0000000000000000)",ACK,
+ULL,
+ULL};
+..\Src\meters\elster_tasks.c(183): warning:  #3170-D: use of a const variable in a constant expression is nonstandard in C
+  const ELSTER_WRITE_CMD_TYPE elsteWriterCmd1 = {"R1","798001(10)",ETX,
+LSTER_WRITE_FILE,"798001"};
+..\Src\meters\elster_tasks.c(184): warning:  #3170-D: use of a const variable in a constant expression is nonstandard in C
+  const ELSTER_WRITE_CMD_TYPE elsteWriterCmd2 = {"R1","795001(08)",ETX,
+LSTER_WRITE_FILE,"795001"};
+..\Src\meters\elster_tasks.c(186): warning:  #3170-D: use of a const variable in a constant expression is nonstandard in C
+  const ELSTER_WRITE_CMD_TYPE elsteWriterCmdTime = {"R1","861001(07)",ETX,
+LSTER_WRITE_FILE,"861001"};
+..\Src\meters\elster_tasks.c(187): warning:  #3170-D: use of a const variable in a constant expression is nonstandard in C
+  const ELSTER_WRITE_CMD_TYPE elsteWriterCmd3 = {"R1","507001(40)",ETX,
+LSTER_WRITE_FILE,"507001"};
+..\Src\meters\elster_tasks.c(188): warning:  #3170-D: use of a const variable in a constant expression is nonstandard in C
+  const ELSTER_WRITE_CMD_TYPE elsteWriterCmd4 = {"R1","507002(10)",ETX,
+LSTER_WRITE_FILE,"507002"};
+..\Src\meters\elster_tasks.c(189): warning:  #3170-D: use of a const variable in a constant expression is nonstandard in C
+  const ELSTER_WRITE_CMD_TYPE elsteWriterCmd5 = {"R1","508001(40)",ETX,
+LSTER_WRITE_FILE,"508001"};
+..\Src\meters\elster_tasks.c(192): warning:  #3170-D: use of a const variable in a constant expression is nonstandard in C
+  const ELSTER_WRITE_CMD_TYPE elsteWriterCmd6 = {"W1","605001(1A2A4A00)",ACK,
+ULL,
+ULL};
+..\Src\meters\elster_tasks.c(193): warning:  #3170-D: use of a const variable in a constant expression is nonstandard in C
+  ELSTER_WRITE_CMD_TYPE2 elsteWriterCmd7 = {"R1","605001(04)",ETX,
+ULL,
+ULL,0,10};
+..\Src\meters\elster_tasks.c(194): warning:  #3170-D: use of a const variable in a constant expression is nonstandard in C
+  const ELSTER_WRITE_CMD_TYPE2 elsteWriterCmd7Reload = {"R1","605001(04)",ETX,
+ULL,
+ULL,0,10};
+..\Src\meters\elster_tasks.c(196): warning:  #3170-D: use of a const variable in a constant expression is nonstandard in C
+  const ELSTER_WRITE_CMD_TYPE elsteWriterCmd8 = {"R1","606001(1C)",ETX,
+LSTER_WRITE_FILE,"60600A"};
+..\Src\meters\elster_tasks.c(197): warning:  #3170-D: use of a const variable in a constant expression is nonstandard in C
+  const ELSTER_WRITE_CMD_TYPE elsteWriterCmd9 = {"W1","605001(1B2B4B00)",ACK,
+ULL,
+ULL};
+..\Src\meters\elster_tasks.c(199): warning:  #3170-D: use of a const variable in a constant expression is nonstandard in C
+  const ELSTER_WRITE_CMD_TYPE elsteWriterCmd10 = {"R1","606001(1C)",ETX,
+LSTER_WRITE_FILE,"60600B"};
+..\Src\meters\elster_tasks.c(200): warning:  #3170-D: use of a const variable in a constant expression is nonstandard in C
+  const ELSTER_WRITE_CMD_TYPE elsteWriterCmd11 = {"W1","605001(18284800)",ACK,
+ULL,
+ULL};
+..\Src\meters\elster_tasks.c(202): warning:  #3170-D: use of a const variable in a constant expression is nonstandard in C
+  const ELSTER_WRITE_CMD_TYPE elsteWriterCmd12 = {"R1","606001(1C)",ETX,
+LSTER_WRITE_FILE,"606008"};
+..\Src\meters\elster_tasks.c(203): warning:  #3170-D: use of a const variable in a constant expression is nonstandard in C
+  const ELSTER_WRITE_CMD_TYPE elsteWriterCmd13 = {"W1","605001(19294900)",ACK,
+ULL,
+ULL};
+..\Src\meters\elster_tasks.c(205): warning:  #3170-D: use of a const variable in a constant expression is nonstandard in C
+  const ELSTER_WRITE_CMD_TYPE elsteWriterCmd14 = {"R1","606001(1C)",ETX,
+LSTER_WRITE_FILE,"606009"};
+..\Src\meters\elster_tasks.c(206): warning:  #3170-D: use of a const variable in a constant expression is nonstandard in C
+  const ELSTER_WRITE_CMD_TYPE elsteWriterCmd14_1 = {"W1","605001(13234303)",ACK,
+ULL,
+ULL};
+..\Src\meters\elster_tasks.c(208): warning:  #3170-D: use of a const variable in a constant expression is nonstandard in C
+  const ELSTER_WRITE_CMD_TYPE elsteWriterCmd14_2 = {"R1","606001(1C)",ETX,
+LSTER_WRITE_FILE,"606003"};
+..\Src\meters\elster_tasks.c(210): warning:  #3170-D: use of a const variable in a constant expression is nonstandard in C
+  const ELSTER_WRITE_CMD_TYPE elsteWriterCmd15 = {"R1","701001(2E)",ETX,
+LSTER_WRITE_FILE,"701001"};
+..\Src\meters\elster_tasks.c(211): warning:  #3170-D: use of a const variable in a constant expression is nonstandard in C
+  const ELSTER_WRITE_CMD_TYPE elsteWriterCmd16 = {"R1","455001(2E)",ETX,
+LSTER_WRITE_FILE,"455001"};
+..\Src\meters\elster_tasks.c(212): warning:  #3170-D: use of a const variable in a constant expression is nonstandard in C
+  const ELSTER_WRITE_CMD_TYPE elsteWriterCmd17 = {"R1","693001(3F)",ETX,
+LSTER_WRITE_FILE,"693001"};
+..\Src\meters\elster_tasks.c(213): warning:  #3170-D: use of a const variable in a constant expression is nonstandard in C
+  const ELSTER_WRITE_CMD_TYPE elsteWriterCmd18 = {"R1","694001(2E)",ETX,
+LSTER_WRITE_FILE,"694001"};
+..\Src\meters\elster_tasks.c(214): warning:  #3170-D: use of a const variable in a constant expression is nonstandard in C
+  const ELSTER_WRITE_CMD_TYPE elsteWriterCmd19 = {"R1","695001(16)",ETX,
+LSTER_WRITE_FILE,"695001"};
+..\Src\meters\elster_tasks.c(215): warning:  #3170-D: use of a const variable in a constant expression is nonstandard in C
+  const ELSTER_WRITE_CMD_TYPE elsteWriterCmd20 = {"R1","702001(2E)",ETX,
+LSTER_WRITE_FILE,"702001"};
+..\Src\meters\elster_tasks.c(217): warning:  #3170-D: use of a const variable in a constant expression is nonstandard in C
+  const ELSTER_WRITE_CMD_TYPE elsteWriterCmd21 = {"R1","680001(16)",ETX,
+LSTER_WRITE_FILE,"680001"};
+..\Src\meters\elster_tasks.c(218): warning:  #3170-D: use of a const variable in a constant expression is nonstandard in C
+  const ELSTER_WRITE_CMD_TYPE elsteWriterCmd22 = {"R1","700001(16)",ETX,
+LSTER_WRITE_FILE,"700001"};
+..\Src\meters\elster_tasks.c(220): warning:  #3170-D: use of a const variable in a constant expression is nonstandard in C
+  ELSTER_WRITE_CMD_TYPE2 elsteWriterCmd23 = {"R1","543001(40)",ETX,
+LSTER_WRITE_FILE,"543001",2,10};
+..\Src\meters\elster_tasks.c(221): warning:  #3170-D: use of a const variable in a constant expression is nonstandard in C
+  const ELSTER_WRITE_CMD_TYPE2 elsteWriterCmd23Reload = {"R1","543001(40)",ETX,
+LSTER_WRITE_FILE,"543001",2,10};
+..\Src\meters\elster_tasks.c(235): warning:  #3170-D: use of a const variable in a constant expression is nonstandard in C
+  const ELSTER_WRITE_CMD_TYPE elsteWriterCmd36 = {"W1","551001(0200)",ACK,
+ULL,
+ULL};
+..\Src\meters\elster_tasks.c(236): warning:  #3170-D: use of a const variable in a constant expression is nonstandard in C
+  ELSTER_WRITE_CMD_TYPE2 elsteWriterCmd37 = {"R1","551001(02)",ETX,
+ULL,
+ULL,1,32};
+..\Src\meters\elster_tasks.c(238): warning:  #3170-D: use of a const variable in a constant expression is nonstandard in C
+  const ELSTER_WRITE_CMD_TYPE2 elsteWriterCmd37Reload = {"R1","551001(02)",ETX,
+ULL,
+ULL,1,32};
+..\Src\meters\elster_tasks.c(464): warning:  #177-D: variable "buf"  was declared but never referenced
+  	char buf[256];
+..\Src\meters\elster_tasks.c(467): warning:  #177-D: variable "u32T"  was declared but never referenced
+  	uint32_t u32T;
+..\Src\meters\elster_tasks.c(1246): warning:  #177-D: variable "len"  was declared but never referenced
+  	uint32_t len;
+..\Src\meters\elster_tasks.c(1300): warning:  #167-D: argument of type "int8_t *" is incompatible with parameter of type "const char *"
+  		if(strcmp(deviceCfg.meterID,buf))
+..\Src\meters\elster_tasks.c(1302): warning:  #167-D: argument of type "int8_t *" is incompatible with parameter of type "char *__restrict__"
+  			strcpy(deviceCfg.meterID,buf);
+..\Src\meters\elster_tasks.c: 37 warnings, 0 errors
+compiling app_config_task.c...
+..\Src\app_config_task.c(35): warning:  #177-D: variable "i"  was declared but never referenced
+  	int32_t i;
+..\Src\app_config_task.c: 1 warning, 0 errors
+compiling power_sensor.c...
+..\Src\power_sensor.c(109): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  						powerLine1.IL = instantaneousValue.current_phase_A/123.7;
+..\Src\power_sensor.c(110): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  						powerLine2.IL = instantaneousValue.current_phase_B/123.7;
+..\Src\power_sensor.c(111): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  						powerLine3.IL = instantaneousValue.current_phase_C/123.7;
+..\Src\power_sensor.c: 3 warnings, 0 errors
+compiling sms_task.c...
+..\Src\sms_task.c(539): warning:  #223-D: function "ucs2_to_utf8" declared implicitly
+  										ucs2_to_utf8(u16Temp,tempBuff2);
+..\Src\sms_task.c(619): warning:  #223-D: function "ucs2_to_utf8" declared implicitly
+  										ucs2_to_utf8(u16Temp,tempBuff2);
+..\Src\sms_task.c(885): warning:  #61-D: integer operation result is out of range
+  		if((deviceCfg.features & 
+EFAULT_FEATURE_1_RELAY) == 0)
+..\Src\sms_task.c(885): warning:  #68-D: integer conversion resulted in a change of sign
+  		if((deviceCfg.features & 
+EFAULT_FEATURE_1_RELAY) == 0)
+..\Src\sms_task.c(924): warning:  #61-D: integer operation result is out of range
+  		if((deviceCfg.features & 
+EFAULT_FEATURE_1_RELAY) == 0)
+..\Src\sms_task.c(924): warning:  #68-D: integer conversion resulted in a change of sign
+  		if((deviceCfg.features & 
+EFAULT_FEATURE_1_RELAY) == 0)
+..\Src\sms_task.c(964): warning:  #61-D: integer operation result is out of range
+  			deviceCfg.features |= 
+EFAULT_FEATURE_1_RELAY;
+..\Src\sms_task.c(964): warning:  #68-D: integer conversion resulted in a change of sign
+  			deviceCfg.features |= 
+EFAULT_FEATURE_1_RELAY;
+..\Src\sms_task.c(973): warning:  #61-D: integer operation result is out of range
+  			deviceCfg.features &= ~
+EFAULT_FEATURE_1_RELAY;
+..\Src\sms_task.c(982): warning:  #61-D: integer operation result is out of range
+  			if((deviceCfg.features & 
+EFAULT_FEATURE_1_RELAY) == 0)
+..\Src\sms_task.c(982): warning:  #68-D: integer conversion resulted in a change of sign
+  			if((deviceCfg.features & 
+EFAULT_FEATURE_1_RELAY) == 0)
+..\Src\sms_task.c(1138): warning:  #61-D: integer operation result is out of range
+  						if((deviceCfg.features & 
+EFAULT_FEATURE_1_RELAY))
+..\Src\sms_task.c(1138): warning:  #68-D: integer conversion resulted in a change of sign
+  						if((deviceCfg.features & 
+EFAULT_FEATURE_1_RELAY))
+..\Src\sms_task.c(1302): warning:  #61-D: integer operation result is out of range
+  			if((deviceCfg.features & 
+EFAULT_FEATURE_1_RELAY))
+..\Src\sms_task.c(1302): warning:  #68-D: integer conversion resulted in a change of sign
+  			if((deviceCfg.features & 
+EFAULT_FEATURE_1_RELAY))
+..\Src\sms_task.c(1307): warning:  #177-D: variable "outputType"  was declared but never referenced
+  					uint32_t index,outputType,hour,min,scheduleConfigOk = 0;
+..\Src\sms_task.c(358): warning:  #177-D: variable "len"  was declared but never referenced
+  	uint16_t len,i,passOk = 0,sms_res_len = 0,flagCfgSave = 0;
+..\Src\sms_task.c(358): warning:  #550-D: variable "passOk"  was set but never used
+  	uint16_t len,i,passOk = 0,sms_res_len = 0,flagCfgSave = 0;
+..\Src\sms_task.c: 18 warnings, 0 errors
+compiling ota_backup_server.c...
+..\Src\ota_backup_server.c(259): warning:  #111-D: statement is unreachable
+  	vPortFree(ota_buf); ota_buf = NULL;
+..\Src\ota_backup_server.c: 1 warning, 0 errors
+compiling alarm.c...
+..\Src\alarm\alarm.c(324): warning:  #61-D: integer operation result is out of range
+  					if((deviceCfg.features & 
+EFAULT_FEATURE_1_RELAY))
+..\Src\alarm\alarm.c(324): warning:  #68-D: integer conversion resulted in a change of sign
+  					if((deviceCfg.features & 
+EFAULT_FEATURE_1_RELAY))
+..\Src\alarm\alarm.c(338): warning:  #61-D: integer operation result is out of range
+  							&& ((deviceCfg.features & 
+EFAULT_FEATURE_1_RELAY) == 0)
+..\Src\alarm\alarm.c(338): warning:  #68-D: integer conversion resulted in a change of sign
+  							&& ((deviceCfg.features & 
+EFAULT_FEATURE_1_RELAY) == 0)
+..\Src\alarm\alarm.c: 4 warnings, 0 errors
+compiling relay.c...
+compiling comm.c...
+compiling aws_iot_mqtt_client.c...
+compiling aws_iot_mqtt_client_common_internal.c...
+..\aws_iot\src\aws_iot_mqtt_client_common_internal.c(428): warning:  #68-D: integer conversion resulted in a change of sign
+  		return NULL_VALUE_ERROR;
+..\aws_iot\src\aws_iot_mqtt_client_common_internal.c(579): warning:  #111-D: statement is unreachable
+  		return AWS_SUCCESS;
+..\aws_iot\src\aws_iot_mqtt_client_common_internal.c(582): warning:  #111-D: statement is unreachable
+  		return rc;
+..\aws_iot\src\aws_iot_mqtt_client_common_internal.c(613): warning:  #111-D: statement is unreachable
+  	return rc;
+..\aws_iot\src\aws_iot_mqtt_client_common_internal.c: 4 warnings, 0 errors
+compiling ampm_gsm_main_task.c...
+..\EthernetInterface\lwip-interface\ppp_lwip.h(24): warning:  #1295-D: Deprecated declaration ppp_lwip_is_dead - give arg types
+  err_t ppp_lwip_is_dead();
+..\ampm_lib\ampm_gsm\ampm_gsm_main_task.c: 1 warning, 0 errors
+compiling aws_iot_mqtt_client_connect.c...
+..\aws_iot\src\aws_iot_mqtt_client_connect.c(452): warning:  #550-D: variable "disconRc"  was set but never used
+  	IoT_Error_t rc, disconRc;
+..\aws_iot\src\aws_iot_mqtt_client_connect.c: 1 warning, 0 errors
+compiling aws_iot_mqtt_client_subscribe.c...
+compiling aws_iot_mqtt_client_publish.c...
+..\aws_iot\src\aws_iot_mqtt_client_publish.c(353): warning:  #111-D: statement is unreachable
+  		return rc;
+..\aws_iot\src\aws_iot_mqtt_client_publish.c: 1 warning, 0 errors
+compiling aws_iot_mqtt_client_unsubscribe.c...
+compiling aws_iot_mqtt_client_yield.c...
+compiling aws_timer.c...
+compiling aws_iot_shadow.c...
+compiling aws_iot_shadow_actions.c...
+compiling aws_iot_shadow_json.c...
+..\aws_iot\src\aws_iot_shadow_json.c(481): warning:  #550-D: parameter "pJsonHandler"  was set but never used
+  bool isJsonValidAndParse(const char *pJsonDocument, void *pJsonHandler, int32_t *pTokenCount) {
+..\aws_iot\src\aws_iot_shadow_json.c(537): warning:  #550-D: variable "pJsonTokenStruct"  was set but never used
+  	jsmntok_t *pJsonTokenStruct;
+..\aws_iot\src\aws_iot_shadow_json.c(36): warning:  #550-D: variable "clientTokenNum"  was set but never used
+  static uint32_t clientTokenNum = 0;
+..\aws_iot\src\aws_iot_shadow_json.c: 3 warnings, 0 errors
+compiling aws_iot_shadow_records.c...
+compiling net_socket.c...
+compiling network_mbedtls_wrapper.c...
+compiling lwip_net_socket.c...
+linking...
+Program Size: Code=406108 RO-data=65068 RW-data=67004 ZI-data=123100  
+After Build - User command #1: fromelf --bin --output .\output\VT_SML_HCM_V15.bin .\VT_SMARTLIGHT_STM32F4\VT_SMARTLIGHT_STM32F4.axf
+".\VT_SMARTLIGHT_STM32F4\VT_SMARTLIGHT_STM32F4.axf" - 0 Error(s), 88 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.0.1.pack
+                ARM::CMSIS:CORE:5.0.1
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.0.1
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_VT_SMARTLIGHT_STM32F4
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include
+  C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.0.1
+Build Time Elapsed:  00:00:07
+</pre>
+</body>
+</html>

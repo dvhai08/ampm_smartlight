@@ -1892,7 +1892,7 @@
  * LINK_STATS==1: Enable link stats.
  */
 #if !defined LINK_STATS || defined __DOXYGEN__
-#define LINK_STATS                      1
+#define LINK_STATS                      0
 #endif
 
 /**
@@ -1906,7 +1906,7 @@
  * IP_STATS==1: Enable IP stats.
  */
 #if !defined IP_STATS || defined __DOXYGEN__
-#define IP_STATS                        1
+#define IP_STATS                        0
 #endif
 
 /**
@@ -1914,21 +1914,21 @@
  * on if using either frag or reass.
  */
 #if !defined IPFRAG_STATS || defined __DOXYGEN__
-#define IPFRAG_STATS                    (IP_REASSEMBLY || IP_FRAG)
+#define IPFRAG_STATS                    0//(IP_REASSEMBLY || IP_FRAG)
 #endif
 
 /**
  * ICMP_STATS==1: Enable ICMP stats.
  */
 #if !defined ICMP_STATS || defined __DOXYGEN__
-#define ICMP_STATS                      1
+#define ICMP_STATS                      0
 #endif
 
 /**
  * IGMP_STATS==1: Enable IGMP stats.
  */
 #if !defined IGMP_STATS || defined __DOXYGEN__
-#define IGMP_STATS                      (LWIP_IGMP)
+#define IGMP_STATS                      0//(LWIP_IGMP)
 #endif
 
 /**
@@ -1936,7 +1936,7 @@
  * UDP enabled, otherwise off.
  */
 #if !defined UDP_STATS || defined __DOXYGEN__
-#define UDP_STATS                       (LWIP_UDP)
+#define UDP_STATS                       0//(LWIP_UDP)
 #endif
 
 /**
@@ -1944,7 +1944,7 @@
  * enabled, otherwise off.
  */
 #if !defined TCP_STATS || defined __DOXYGEN__
-#define TCP_STATS                       (LWIP_TCP)
+#define TCP_STATS                       0//(LWIP_TCP)
 #endif
 
 /**

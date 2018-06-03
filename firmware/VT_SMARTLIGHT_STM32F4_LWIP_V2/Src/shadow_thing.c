@@ -586,7 +586,7 @@ static void shadow_thing_thread(void const *param)
 										
 										if(strlen(pScheduleJson) == 0)
 										{
-											sprintf(&pJsonDoccument[strlen(pJsonDoccument)],"\"schedules\":null,");
+											sprintf(&pJsonDoccument[strlen(pJsonDoccument)],"\"schedules\":[],");
 										}
 										else
 										{
@@ -794,13 +794,13 @@ static void shadow_thing_thread(void const *param)
 										}
 										else
 										{
-											sprintf(&pJsonDoccument[strlen(pJsonDoccument)],"\"warnings\":null,");
+											sprintf(&pJsonDoccument[strlen(pJsonDoccument)],"\"warnings\":[],");
 											mbedtls_free(msg);
 										}
 									}
 									else
 									{
-										sprintf(&pJsonDoccument[strlen(pJsonDoccument)],"\"warnings\":null,");
+										sprintf(&pJsonDoccument[strlen(pJsonDoccument)],"\"warnings\":[],");
 									}
 									mbedtls_free(pWarningsJson);
 								}
@@ -856,12 +856,12 @@ static void shadow_thing_thread(void const *param)
 										}
 										else
 										{
-											sprintf(&pJsonDoccument[strlen(pJsonDoccument)],"\"alarms\":null,");
+											sprintf(&pJsonDoccument[strlen(pJsonDoccument)],"\"alarms\":[],");
 											mbedtls_free(msg);
 										}
 									}
 									else
-										sprintf(&pJsonDoccument[strlen(pJsonDoccument)],"\"alarms\":null,");
+										sprintf(&pJsonDoccument[strlen(pJsonDoccument)],"\"alarms\":[],");
 									mbedtls_free(pAlarmsJson);
 								}
 								
@@ -1180,9 +1180,25 @@ void Schedules_Status_DeltaCallback(const char *pJsonValueBuffer, uint32_t value
 	tokenTable[7] = wD;
 	tokenTable[8] = s_time;
 
-	
-	
-	//for(uint8_t i = 0;i < 10;i++)
+	if(pt[0] == ']' || (pt[0] == 'u' && pt[1] == 'l' && pt[2] == 'l')) //accept schedule:[] or schedule:null
+	{
+		for(int i = 0;i < DEVICE_SCHEDULE_MAX; i++)
+		{
+				deviceCfg.schedules[i].fromYear = 0xff;
+				deviceCfg.schedules[i].toYear = 0xff;
+				deviceCfg.schedules[i].fromMonth = 0xff;
+				deviceCfg.schedules[i].toMonth = 0xff;
+				deviceCfg.schedules[i].fromMday = 0xff;
+				deviceCfg.schedules[i].toMday = 0xff;
+				deviceCfg.schedules[i].weekDay = 0xff;
+				deviceCfg.schedules[i].hour = 0xff;
+				deviceCfg.schedules[i].min = 0xff;
+				deviceCfg.schedules[i].type = 0;
+				deviceCfg.schedules[i].valueOn = 0;
+				deviceCfg.schedules[i].valueOff = 0;
+		}
+	}
+	else
 	{
 		toksuper = 0;
 		tokcnt = 0;

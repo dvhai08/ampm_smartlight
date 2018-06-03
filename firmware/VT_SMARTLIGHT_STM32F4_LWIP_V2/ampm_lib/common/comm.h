@@ -19,13 +19,13 @@
 
 
 
-#define PPP_Info(...)		printf(__VA_ARGS__)
+#define PPP_Info(...)		//printf(__VA_ARGS__)
 
-#define PPP_Debug(...)	printf(__VA_ARGS__)
+#define PPP_Debug(...)	//printf(__VA_ARGS__)
 #define AT_CMD_Debug(...)	printf(__VA_ARGS__)
-#define UIP_PPP_Info(...) printf(__VA_ARGS__)
+#define UIP_PPP_Info(...) //printf(__VA_ARGS__)
 #define AMPM_GSM_LIB_DBG(...) printf(__VA_ARGS__)
-#define MODEM_Info(...)		printf(__VA_ARGS__)
+#define MODEM_Info(...)		//printf(__VA_ARGS__)
 
 extern RINGBUF USART2_TxRingBuff;
 extern RINGBUF USART2_RxRingBuff;

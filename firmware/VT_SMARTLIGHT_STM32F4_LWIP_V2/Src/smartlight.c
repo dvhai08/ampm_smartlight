@@ -63,7 +63,7 @@ void vSmartLightMainTask()
 		}
 		iot_shadow_thing_start();
 		UartConfigTaskInit();
-    printf("Hello,I'm SMARTLIGHT!\n\r");
+    printf("Hello,I'm SMARTLIGHT! Ver = %s\n\r",FIRMWARE_VERSION);
 		ota_backup_start();
 		PowerSensor_Init();
 		//ota_start();

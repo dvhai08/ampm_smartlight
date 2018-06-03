@@ -3,15 +3,13 @@
 #include "lib/sys_tick.h"
 #include <stdlib.h>
 #include "cmsis_os.h"
+#include <math.h>
 
 CONFIG_POOL sysCfg  __attribute__ ((__section__("osRam")));
 DEVICE_SETTING_TYPE deviceCfg;//  __attribute__ ((__section__("osRam")));
 DEVICE_IO_STATUS_TYPE deviceIoStatus  __attribute__ ((__section__("osRam")));
 
-NOINIT_VARIABLE_TYPE variableNoInit  __attribute__((at(0x1000FF80)));
-
-const char IOT_ROOT_CA [] = \
-"-----BEGIN CERTIFICATE-----\n"\
+/*"-----BEGIN CERTIFICATE-----\n"\
 "MIIDrzCCApegAwIBAgIQCDvgVpBCRrGhdWrJWZHHSjANBgkqhkiG9w0BAQUFADBh\n"\
 "MQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMRkwFwYDVQQLExB3\n"\
 "d3cuZGlnaWNlcnQuY29tMSAwHgYDVQQDExdEaWdpQ2VydCBHbG9iYWwgUm9vdCBD\n"\
@@ -32,7 +30,12 @@ const char IOT_ROOT_CA [] = \
 "PnlUkiaY4IBIqDfv8NZ5YBberOgOzW6sRBc4L0na4UU+Krk2U886UAb3LujEV0ls\n"\
 "YSEY1QSteDwsOoBrp+uvFRTp2InBuThs4pFsiv9kuXclVzDAGySj4dzp30d8tbQk\n"\
 "CAUw7C29C79Fv1C5qfPrmAESrciIxpg0X40KPMbp1ZWVbd4=\n"\
-"-----END CERTIFICATE-----\0";
+"-----END CERTIFICATE-----\0";*/
+//++++++++++++++++++++++++++++++MyTel_CA++++++++++++++++++++++++++++++++++++++
+
+NOINIT_VARIABLE_TYPE variableNoInit  __attribute__((at(0x1000FF80)));
+
+
 
 static uint32_t GetSectorSize(uint32_t Sector);
 static uint32_t GetSector(uint32_t Address);
@@ -252,6 +255,43 @@ void DeviceCfg_Load(void)
 		deviceCfg.meterType = 0;
 		saveFlag = 1;
 	}
+	
+	if(deviceCfg.highVoltageLevel <= 0 
+		|| deviceCfg.highVoltageLevel >= 10000
+		|| isnan(deviceCfg.highVoltageLevel)
+	)
+	{
+		deviceCfg.highVoltageLevel = 400;
+		saveFlag = 1;
+	}
+	
+	if(deviceCfg.lowVoltageLevel <= 0 
+		|| deviceCfg.lowVoltageLevel >= 10000
+		|| isnan(deviceCfg.lowVoltageLevel)
+	)
+	{
+		deviceCfg.lowVoltageLevel = 195;
+		saveFlag = 1;
+	}
+	
+	if(deviceCfg.highCurrentLevel <= 0 
+		|| deviceCfg.highCurrentLevel >= 1000
+		|| isnan(deviceCfg.highCurrentLevel)
+	)
+	{
+		deviceCfg.highCurrentLevel = 40;
+		saveFlag = 1;
+	}
+	
+	if(deviceCfg.lowCurrentLevel <= 0 
+		|| deviceCfg.lowCurrentLevel >= 1000
+		|| isnan(deviceCfg.lowCurrentLevel)
+	)
+	{
+		deviceCfg.lowCurrentLevel = 0.2;
+		saveFlag = 1;
+	}
+	
 	if(deviceCfg.rs232.baudRate > 256000)
 	{
 		deviceCfg.rs232.baudRate = 9600;

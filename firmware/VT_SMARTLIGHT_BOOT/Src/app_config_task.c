@@ -397,22 +397,31 @@ void AppCopy(void)
 //				FLASH_ErasePage(ADDR_FLASH_SECTOR_2);
 //				if((firmwareFileSize + USER_FLASH_START) >= ADDR_FLASH_SECTOR_3)
 				FLASH_ErasePage(ADDR_FLASH_SECTOR_3);
+			LL_IWDG_ReloadCounter(IWDG);
 			if((fileSize + USER_FLASH_START) >= ADDR_FLASH_SECTOR_4)
 				FLASH_ErasePage(ADDR_FLASH_SECTOR_4);
+			LL_IWDG_ReloadCounter(IWDG);
 			if((fileSize + USER_FLASH_START) >= ADDR_FLASH_SECTOR_5)
 				FLASH_ErasePage(ADDR_FLASH_SECTOR_5);
+			LL_IWDG_ReloadCounter(IWDG);
 			if((fileSize + USER_FLASH_START) >= ADDR_FLASH_SECTOR_6)
 				FLASH_ErasePage(ADDR_FLASH_SECTOR_6);
+			LL_IWDG_ReloadCounter(IWDG);
 			if((fileSize + USER_FLASH_START) >= ADDR_FLASH_SECTOR_7)
 				FLASH_ErasePage(ADDR_FLASH_SECTOR_7);
+			LL_IWDG_ReloadCounter(IWDG);
 			if((fileSize + USER_FLASH_START) >= ADDR_FLASH_SECTOR_8)
-				FLASH_ErasePage(ADDR_FLASH_SECTOR_8);
+				FLASH_ErasePage(ADDR_FLASH_SECTOR_8); 
+			LL_IWDG_ReloadCounter(IWDG);
 			if((fileSize + USER_FLASH_START) >= ADDR_FLASH_SECTOR_9)
 				FLASH_ErasePage(ADDR_FLASH_SECTOR_9);
+			LL_IWDG_ReloadCounter(IWDG);
 			if((fileSize + USER_FLASH_START) >= ADDR_FLASH_SECTOR_10)
 				FLASH_ErasePage(ADDR_FLASH_SECTOR_11);
+			LL_IWDG_ReloadCounter(IWDG);
 			if((fileSize + USER_FLASH_START) >= ADDR_FLASH_SECTOR_11)
 				FLASH_ErasePage(ADDR_FLASH_SECTOR_11);
+			LL_IWDG_ReloadCounter(IWDG);
 			HAL_FLASH_Lock();
 			flashCheckSum = 0;
 			for(i = 0; i < fileSize;i += FLASH_BUF_SIZE)

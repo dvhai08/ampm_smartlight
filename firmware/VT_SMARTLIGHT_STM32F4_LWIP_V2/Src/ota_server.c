@@ -22,7 +22,7 @@
 #include "network_interface.h"
 #include "timer_interface.h"
 
-#define OTA_DBG(...) printf(__VA_ARGS__)
+#define OTA_DBG(...) //printf(__VA_ARGS__)
 
 char *http_get = "GET /iot/download/sml_v1.0 HTTP/1.1\r\n\
 HOST: platform.viettel.io\r\n\
