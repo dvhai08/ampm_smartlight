@@ -209,7 +209,7 @@ int main(void)
 		variableNoInit.deviceStatus = 0;
 		variableNoInit.lineStatus = 0;
 	}
-	variableNoInit.ramOk = 0xA5A5A5A5;
+	
   /* USER CODE END 1 */
 
   /* MCU Configuration----------------------------------------------------------*/

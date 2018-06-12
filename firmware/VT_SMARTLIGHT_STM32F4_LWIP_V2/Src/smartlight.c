@@ -53,7 +53,16 @@ void vSmartLightMainTask()
 		//load device config here
 		DeviceCfg_Load();
 		DeviceIoStatus_Load();
-	
+		if(variableNoInit.ramOk == 0xA5A5A5A5)
+		{
+			for(int i = 0; i < 4;i++)
+			{
+				if(variableNoInit.lineStatus & (1<<i))
+					relay_on(i + 1);
+				else
+					relay_off(i + 1);
+			}
+		}
 		for(uint8_t i = 0;i < DEVICE_LINE_MAX;i++)
 		{
 			if(deviceIoStatus.line[i])
@@ -86,10 +95,14 @@ void vSmartLightMainTask()
 			Alarm_Task();
 			if(smartLightMainCnt % 10000 == 0)
 			{
+				
+				relay_status_check();
+				
 				RTC_CalendarShow();
 				printf("OS HEAP FREE HEAP SIZE:%d\r\n",(uint32_t)xPortGetFreeHeapSize());
 				MEM_STATS_DISPLAY();
 			}
+			
 			if(smartLightMainCnt % 120000 == 0)
 			{
 				stats_display();

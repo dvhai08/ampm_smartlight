@@ -3,7 +3,7 @@
 <title>Static Call Graph - [.\VT_SMARTLIGHT_STM32F4\VT_SMARTLIGHT_STM32F4.axf]</title></head>
 <body><HR>
 <H1>Static Call Graph for image .\VT_SMARTLIGHT_STM32F4\VT_SMARTLIGHT_STM32F4.axf</H1><HR>
-<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060422: Last Updated: Wed May 30 11:57:47 2018
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060422: Last Updated: Mon Jun 04 19:23:43 2018
 <BR><P>
 <H3>Maximum Stack Usage =      12752 bytes + Unknown(Cycles, Untraceable Function Pointers)</H3><H3>
 Call chain for Maximum Stack Depth:</H3>
@@ -4558,7 +4558,7 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[5e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
-<P><STRONG><a name="[5e]"></a>main</STRONG> (Thumb, 192 bytes, Stack size 24 bytes, main.o(.text))
+<P><STRONG><a name="[5e]"></a>main</STRONG> (Thumb, 184 bytes, Stack size 24 bytes, main.o(.text))
 <BR><BR>[Stack]<UL><LI>Max Depth = 232<LI>Call Chain = main &rArr; SystemClock_Config &rArr; HAL_RCC_ClockConfig &rArr; HAL_InitTick &rArr; HAL_NVIC_SetPriority &rArr; NVIC_SetPriority
 </UL>
 <BR>[Calls]<UL><LI><a href="#[269]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SysTimeSetup
@@ -5005,7 +5005,7 @@ Global Symbols
 
 <P><STRONG><a name="[a63]"></a>is_ntp_server_running</STRONG> (Thumb, 14 bytes, Stack size 0 bytes, ntp_server.o(.text), UNUSED)
 
-<P><STRONG><a name="[3d1]"></a>vSmartLightMainTask</STRONG> (Thumb, 396 bytes, Stack size 8 bytes, smartlight.o(.text))
+<P><STRONG><a name="[3d1]"></a>vSmartLightMainTask</STRONG> (Thumb, 446 bytes, Stack size 8 bytes, smartlight.o(.text))
 <BR><BR>[Stack]<UL><LI>Max Depth = 760<LI>Call Chain = vSmartLightMainTask &rArr; PowerSensor_Task &rArr; MeterElterTasks &rArr; elsterParse &rArr; DeviceCfg_Save &rArr; OS_SST25_Write &rArr; SST25_Write &rArr; _SST25_Write &rArr; __SST25_Write &rArr; SST25__WriteEnable &rArr; SST25__Status &rArr; halSpiWriteByte &rArr; HAL_SPI_TransmitReceive &rArr; SPI_CheckFlag_BSY &rArr; SPI_WaitFlagStateUntilTimeout
 </UL>
 <BR>[Calls]<UL><LI><a href="#[1f0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;osDelay
