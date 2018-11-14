@@ -1,0 +1,21 @@
+D:\AMBO\SVN\A Tien\3g_2g_meter_reading\software\PJ1000_OTA_Server\Update Server\obj\x86\Release\PJ1000_Update_Server.exe
+D:\AMBO\SVN\A Tien\3g_2g_meter_reading\software\PJ1000_OTA_Server\Update Server\obj\x86\Release\PJ1000_Update_Server.pdb
+D:\AMBO\SVN\A Tien\3g_2g_meter_reading\software\PJ1000_OTA_Server\Update Server\bin\Release\PJ1000_Update_Server.exe
+D:\AMBO\SVN\A Tien\3g_2g_meter_reading\software\PJ1000_OTA_Server\Update Server\bin\Release\PJ1000_Update_Server.pdb
+D:\AMBO\SVN\A Tien\3g_2g_meter_reading\software\PJ1000_OTA_Server\Update Server\bin\Release\DevComponents.DotNetBar2.dll
+D:\AMBO\SVN\A Tien\3g_2g_meter_reading\software\PJ1000_OTA_Server\Update Server\obj\x86\Release\ResolveAssemblyReference.cache
+D:\AMBO\SVN\A Tien\3g_2g_meter_reading\software\PJ1000_OTA_Server\Update Server\obj\x86\Release\PJ1000_Update_Server.MainForm.resources
+D:\AMBO\SVN\A Tien\3g_2g_meter_reading\software\PJ1000_OTA_Server\Update Server\obj\x86\Release\PJ1000_Update_Server.Properties.Resources.resources
+D:\AMBO\SVN\A Tien\3g_2g_meter_reading\software\PJ1000_OTA_Server\Update Server\obj\x86\Release\PJ1000_Update_Server.RegisterForm.resources
+D:\AMBO\SVN\A Tien\3g_2g_meter_reading\software\PJ1000_OTA_Server\Update Server\obj\x86\Release\GenerateResource.read.1.tlog
+D:\AMBO\SVN\A Tien\3g_2g_meter_reading\software\PJ1000_OTA_Server\Update Server\obj\x86\Release\GenerateResource.write.1.tlog
+D:\AMPM\SVN\PJ2000\trunk\software\PJ1000_OTA_Server\Update Server\obj\x86\Release\PJ1000_Update_Server.exe
+D:\AMPM\SVN\PJ2000\trunk\software\PJ1000_OTA_Server\Update Server\obj\x86\Release\PJ1000_Update_Server.pdb
+D:\AMPM\SVN\PJ2000\trunk\software\PJ1000_OTA_Server\Update Server\obj\x86\Release\ResolveAssemblyReference.cache
+D:\AMPM\SVN\PJ2000\trunk\software\PJ1000_OTA_Server\Update Server\obj\x86\Release\PJ1000_Update_Server.MainForm.resources
+D:\AMPM\SVN\PJ2000\trunk\software\PJ1000_OTA_Server\Update Server\obj\x86\Release\PJ1000_Update_Server.Properties.Resources.resources
+D:\AMPM\SVN\PJ2000\trunk\software\PJ1000_OTA_Server\Update Server\obj\x86\Release\GenerateResource.read.1.tlog
+D:\AMPM\SVN\PJ2000\trunk\software\PJ1000_OTA_Server\Update Server\obj\x86\Release\GenerateResource.write.1.tlog
+D:\AMPM\SVN\PJ2000\trunk\software\PJ1000_OTA_Server\Update Server\bin\Release\PJ1000_Update_Server.exe
+D:\AMPM\SVN\PJ2000\trunk\software\PJ1000_OTA_Server\Update Server\bin\Release\PJ1000_Update_Server.pdb
+D:\AMPM\SVN\PJ2000\trunk\software\PJ1000_OTA_Server\Update Server\bin\Release\DevComponents.DotNetBar2.dll

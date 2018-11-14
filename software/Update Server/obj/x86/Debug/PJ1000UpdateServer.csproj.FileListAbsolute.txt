@@ -1,0 +1,11 @@
+d:\01_SVN_Workspace\PJ1000_OTA_Server\Update Server\bin\Debug\PJ1000_Update_Server.exe
+d:\01_SVN_Workspace\PJ1000_OTA_Server\Update Server\bin\Debug\PJ1000_Update_Server.pdb
+d:\01_SVN_Workspace\PJ1000_OTA_Server\Update Server\bin\Debug\DevComponents.DotNetBar2.dll
+d:\01_SVN_Workspace\PJ1000_OTA_Server\Update Server\obj\x86\Debug\ResolveAssemblyReference.cache
+d:\01_SVN_Workspace\PJ1000_OTA_Server\Update Server\obj\x86\Debug\PJ1000_Update_Server.MainForm.resources
+d:\01_SVN_Workspace\PJ1000_OTA_Server\Update Server\obj\x86\Debug\PJ1000_Update_Server.Properties.Resources.resources
+d:\01_SVN_Workspace\PJ1000_OTA_Server\Update Server\obj\x86\Debug\PJ1000_Update_Server.RegisterForm.resources
+d:\01_SVN_Workspace\PJ1000_OTA_Server\Update Server\obj\x86\Debug\GenerateResource.read.1.tlog
+d:\01_SVN_Workspace\PJ1000_OTA_Server\Update Server\obj\x86\Debug\GenerateResource.write.1.tlog
+d:\01_SVN_Workspace\PJ1000_OTA_Server\Update Server\obj\x86\Debug\PJ1000_Update_Server.exe
+d:\01_SVN_Workspace\PJ1000_OTA_Server\Update Server\obj\x86\Debug\PJ1000_Update_Server.pdb
